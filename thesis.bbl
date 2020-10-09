@@ -1,0 +1,290 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Barlish%
+\ \BBA {} Sullivan%
+}{%
+Barlish%
+\ \BBA {} Sullivan%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+barlish2012measure}
+\APACinsertmetastar {%
+barlish2012measure}%
+\begin{APACrefauthors}%
+Barlish, K.%
+\BCBT {}\ \BBA {} Sullivan, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{How to measure the benefits of BIM — A case study
+  approach}} {{How to measure the benefits of BIM — A case study
+  approach}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Automation in construction}{24}{}{149--159}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chang%
+\ \BBA {} Howard%
+}{%
+Chang%
+\ \BBA {} Howard%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+chang2014economic}
+\APACinsertmetastar {%
+chang2014economic}%
+\begin{APACrefauthors}%
+Chang, C\BHBI Y.%
+\BCBT {}\ \BBA {} Howard, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{An economic framework for analyzing the incentive
+  problems in building information modeling systems}} {{An economic framework
+  for analyzing the incentive problems in building information modeling
+  systems}}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of Academy of Management annual meeting,
+  Philadelphia, USA.} {Proceedings of academy of management annual meeting,
+  philadelphia, usa.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Comisión Chilena del Cobre}%
+}{%
+{Comisión Chilena del Cobre}%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+inversion-cochilco}
+\APACinsertmetastar {%
+inversion-cochilco}%
+\begin{APACrefauthors}%
+{Comisión Chilena del Cobre}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Inversión en la minería chilena - Cartera de proyectos
+  2018 - 2027} {Inversión en la minería chilena - cartera de proyectos 2018 -
+  2027}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hansen%
+}{%
+Hansen%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+hansen2018}
+\APACinsertmetastar {%
+hansen2018}%
+\begin{APACrefauthors}%
+Hansen, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Econometrics}} {{Econometrics}}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lu%
+, Fung%
+, Peng%
+, Liang%
+\BCBL {}\ \BBA {} Rowlinson%
+}{%
+Lu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+lu2014cost}
+\APACinsertmetastar {%
+lu2014cost}%
+\begin{APACrefauthors}%
+Lu, W.%
+, Fung, A.%
+, Peng, Y.%
+, Liang, C.%
+\BCBL {}\ \BBA {} Rowlinson, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Cost-benefit analysis of Building Information Modeling
+  implementation in building projects through demystification of time-effort
+  distribution curves}} {{Cost-benefit analysis of Building Information
+  Modeling implementation in building projects through demystification of
+  time-effort distribution curves}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Building and environment}{82}{}{317--327}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lu%
+, Peng%
+, Shen%
+\BCBL {}\ \BBA {} Li%
+}{%
+Lu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+lu2012generic}
+\APACinsertmetastar {%
+lu2012generic}%
+\begin{APACrefauthors}%
+Lu, W.%
+, Peng, Y.%
+, Shen, Q.%
+\BCBL {}\ \BBA {} Li, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Generic model for measuring benefits of BIM as a
+  learning tool in construction tasks}} {{Generic model for measuring benefits
+  of BIM as a learning tool in construction tasks}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Construction Engineering and
+  Management}{139}{2}{195--203}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{National Building Information Model Standard Project Committee}%
+}{%
+{National Building Information Model Standard Project Committee}%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+nbimstandard}
+\APACinsertmetastar {%
+nbimstandard}%
+\begin{APACrefauthors}%
+{National Building Information Model Standard Project Committee}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+\APACrefbtitle {What is BIM?} {What is bim?}
+\newblock
+\begin{APACrefURL} \url{https://www.nationalbimstandard.org/faqs#faq1}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+NBS%
+}{%
+NBS%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+nbs}
+\APACinsertmetastar {%
+nbs}%
+\begin{APACrefauthors}%
+NBS.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2018}.
+\newblock
+\APACrefbtitle {National BIM Report} {National bim report}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sald{\'\i}as%
+}{%
+Sald{\'\i}as%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+saldias2010estimacion}
+\APACinsertmetastar {%
+saldias2010estimacion}%
+\begin{APACrefauthors}%
+Sald{\'\i}as, R\BPBI O\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Estimaci{\'o}n de los beneficios de realizar una
+  coordinaci{\'o}n digital de proyectos con tecnolog{\'\i}as BIM}
+  {Estimaci{\'o}n de los beneficios de realizar una coordinaci{\'o}n digital de
+  proyectos con tecnolog{\'\i}as bim}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Succar%
+}{%
+Succar%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+succar2010building}
+\APACinsertmetastar {%
+succar2010building}%
+\begin{APACrefauthors}%
+Succar, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Building information modelling maturity matrix}
+  {Building information modelling maturity matrix}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Handbook of research on building information modeling
+  and construction informatics: Concepts and technologies} {Handbook of
+  research on building information modeling and construction informatics:
+  Concepts and technologies}\ (\BPGS\ 65--103).
+\newblock
+\APACaddressPublisher{}{IGI Global}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Verbeek%
+}{%
+Verbeek%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+verbeek}
+\APACinsertmetastar {%
+verbeek}%
+\begin{APACrefauthors}%
+Verbeek, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2004}.
+\newblock
+\APACrefbtitle {A guide to modern econometrics} {A guide to modern
+  econometrics}.
+\newblock
+\APACaddressPublisher{}{John Wiley \& Sons}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
