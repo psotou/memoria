@@ -1,0 +1,133 @@
+\chapter{Introducción}
+% \addcontentsline{toc}{chapter}{Introducción}
+
+\section{Antecedentes Generales}
+
+\subsection{La Metodología BIM}
+
+BIM es el acrónimo de \emph{Bulding Information Modeling}, que traducido al español quiere decir Modelado de Información de la Construcción, el cual hace referencia al proceso de generación y gestión de datos de una construcción durante su ciclo de vida utilizando algún \emph{software} dinámico de modelado en tres dimensiones y en tiempo real para disminuir la pérdida de tiempo y recursos en el diseño de la construcción. Este proceso produce el modelo de información de la construcción (al que se le conoce como modelo BIM), que abarca tanto la geometría de la construcción, las relaciones espaciales y la información geográfica, así como también las cantidades, las propiedades y atributos de cada uno de los componentes integrados en el modelo.
+
+En otras palabras, el BIM representa un espacio virtual compartido de lo que será construido y su entorno, el que, además, está asociado a las herramientas (\emph{software}), métodos (procedimientos de operación) y análisis (estructural, chequeo de interferencias, construcción, etc.) relacionados con dicho modelo \cite{saldias2010estimacion}.
+
+En esta línea, y para el propósito de esta Memoria, la definición de BIM que mejor se ajusta al trabajo realizado es la que propone el \citeA{nbimstandard}, que postula al BIM como una representación digital de las características físicas y funcionales de un proyecto. Así, el BIM es un fuente compartida de conocimiento e información sobre dicho proyecto, constituyendo una base confiable para la toma de decisiones durante el ciclo de vida de este.
+
+Una premisa básica del BIM es la colaboración entre los actores involucrados durante las diferentes fases del ciclo de vida del proyecto, ya sea para insertar, extraer, actualizar o modificar algún tipo de información en el modelo BIM para apoyar los roles de cada actor.
+
+Así, los requerimientos para que el modelo BIM sea intercambiable están basados en: una representación digital compartida, que la información contenida en el modelo sea interoperable (es decir, que permita intercambios entre distintos computadores), que los intercambios estén basados en estándares abiertos y comunes a la industria, y que los requerimientos de los intercambios puedan ser definidos en lenguaje contractual. %hacer d esto un punteo
+
+En términos prácticos, el BIM puede interpretarse de manera diferente dependiendo de la perspectiva de cada actor:
+
+\begin{itemize}
+    \item Aplicado a un proyecto, el BIM representa la gestión de la información. Es decir, los datos contribuidos y compartidos por todos los participantes del proyecto. La información correcta para la persona correcta en el tiempo correcto.
+    \item Para los participantes del proyecto, el BIM representa un proceso interoperable para la entrega del proyecto. Es decir, define el trabajo de los equipos y cuántos equipos deben trabajar en conjunto para concevir, diseñar, construir y operar el proyecto.
+    \item Para el equipo de diseño, el BIM representa un diseño integrado. Es decir, hace uso de soluciones tecnológicas, incentivando la creatividad, entregando \emph{feedback} y empoderando a los equipos.
+\end{itemize}
+
+\subsection{La Construcción en el Sector Minero}
+
+Según lo establecido por la \citeA{inversion-cochilco} en su informe de inversión en la minería chilena, que considera aquellos proyectos con puesta en marcha dentro del período 2018 -- 2027, existen 44 iniciativas avaluadas en unos US\$ 65.747 millones.
+
+Estas 44 iniciativas se pueden dividir en dos grupos: aquellas con una mayor probabilidad de materializarse dentro de los plazos presupuestados, y aquellas cuya probabilidad de materializarse es menor.
+
+Dentro del primer grupo se encuentran las iniciativas en condición base y probable, que suman un total de US\$ 36.257 millones con 25 proyectos, los cuales corresponden a un 55,1\% del total de la cartera.
+
+En el segundo grupo se encuentran aquellos proyectos en condición posible, potencial y los más propensos a verse afectados por cambios en las condiciones de mercado. Corresponden a 19 iniciativas valoradas en US\$ 29.490 millones, que equivalen al 44,9\% del todal de la cartera.
+
+Si se adopta una postura pesimista y sólo se consideran los proyectos del primer grupo, se puede hacer un análisis separado de aquellas iniciativas en condición base y probable. Así, las iniciativas en condición base cuentan con 14 proyectos, cuya inversión asciende a los US\$ 21.931 millones, siendo CODELCO el actor principal con un 68,8\% de la inversión para esta condición. Por otro lado, existen 14 iniciativas en condición probable avaluadas en US\$ 14.326 millones, donde la gran minería privada es la de mayor relevancia con un 91\% del total de la inversión para esta condición.
+
+Para estudiar los montos asociados exclusivamente a la etapa de construcción, se toman en cuenta los porcentajes de impacto en los costos de un contrato EPCM establecidos por CODELCO para cada una de las etapas de dicho contrato. De esta manera, al asociar los porcentajes a los proyectos en condición base y probable se generan los siguientes resultados:
+
+{
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
+\begin{table}[H]
+    \begin{threeparttable} %needed for the table notes
+    \centering
+    \caption{Impacto en los costos de acuerdo a las etapas de un proyecto EPCM según CODELCO.}
+    \label{tab.impacto_ing}
+    \begin{tabular}{l M{1.1in} M{1.8in} M{1.5in}}
+        \toprule
+        \textbf{Etapa} & \textbf{\% de impacto en costos} & \textbf{Proyectos condición base y probable, MM USD} & \textbf{Proyectos condición base, MM USD} \\
+        \midrule
+        Ingeniería & 10\% & \$ 3.626 & \$ 2.193 \\
+        Adquisición & 50\% & \$ 18.129 & \$ 10.966 \\
+        Construcción & 35\% & \$ 12.690 & \$ 7.676 \\
+        Gestión & 5\% & \$ 1.813 & \$ 1.097 \\
+        \bottomrule        
+    \end{tabular}
+    \begin{tablenotes}
+         \small
+         \item MM USD = millones de dólares. Fuente CODELCO Chile. 
+    \end{tablenotes}
+    \end{threeparttable}
+\end{table}
+}
+
+Tal como se aprecia, la etapa de construcción es la que tiene el segundo mayor impacto en los costos de un contrato EPCM, alcanzando un 35\% de los costos totales de un proyecto.
+
+Así, la inversión asociada a los proyectos en condición base y a la agrupación de proyectos en condición base y probable, representan un $7,35$\% y un $12,16$\% respectivamente del PIB de Chile en 2018\footnote{Dato extraído del Banco Mundial \url{https://datos.bancomundial.org/pais/chile}}.
+
+%Remember to add "extraído por" when citing this shit
+
+\subsection{BIM en Codelco}
+
+%Extraído de https://planbim.cl/codelco-adhiere-a-planbim/?lang=en
+
+Tras un proceso gradual de implementación de metodologías y tecnologías BIM ---que partió en 2010 con la incorporación de procesos de gestión documental y empleo de modelos 3D para el diseño de proyectos estructurales y de mantenimiento de instalaciones, en los que se entendía el BIM no sólo como un software, sino como una forma de gestionar información--- Codelco suscribe el ``Acuerdo de Colaboración y Complementación de Capacidades para Incrementar la Productividad de la Industria de la Construcción'' con Planbim de Corfo en 2018 con el fin de aumentar la productividad y eficiencia en sus proyectos.
+
+El convenio busca fomentar la incorporación de procesos, estándares y tecnologías de información y comunicaciones, junto con metodologías BIM, para generar un cambio metodológico que integre habilidades y capacidades a los trabajadores mediante el uso de nuevas tecnologías y trabajo colaborativo e interdisciplinario, que permitan la integración de la gestión de proyectos y el manejo optimizado de información a lo largo del ciclo de vida completo de los activos, desde su diseño hasta su operación.
+
+%--
+Así, y con el fin de convertirse en la institución que realiza los proyectos más productivos del país, es que Codelco emitió un mandato corporativo durante el primer semestre del 2019, en el que se indica el uso obligatorio de la metodología BIM para todos los proyectos de la corporación.
+
+\section{Motivación}
+
+Las iniciativas en estado base y probable proyectadas para el período 2018 -- 2027 representan un $12,16$\% del PIB nacional del año 2018. Asimismo, de acuerdo las ponderaciones mostradas en la Tabla \ref{tab.impacto_ing}, los costos asociados a la etapa de construcción de estos proyectos representa un $4,26$\% del PIB registrado en 2018.
+
+Tales cifras muestran la importancia de diseñar, construir y gestionar los proyectos de manera eficiente. Para ello, Codelco ha establecido el uso del BIM con el fin de, entre otros, ajustarse a los costos inicialmente proyectados como presupuesto base.
+
+Sin embargo, hasta ahora no existe una manera cuantitativa de estimar si el uso del BIM efectivamente contribuye a ajustarse a los costos inicialmente presupuestados, o bien cuál es el beneficio económico asociado al uso de dicha tecnología. Esta falencia es la que ha motivado la realización de este estudio.
+
+\section{Objetivos}
+
+\subsection{Objetivo General}
+
+\begin{itemize}
+    \item Proponer un método cuantitativo para estimar el beneficio económico asociado al uso del BIM, proyectando los sobrecostos de un proyecto respecto de su presupuesto inicial según el nivel de madurez BIM alcanzado por dicho proyecto.
+\end{itemize}
+
+\subsection{Objetivos Secundarios}
+
+\begin{itemize}
+    \item Proponer un indicador de madurez BIM que relacione la desviación en los costos de un proyecto y según su nivel de madurez.
+    \item Desarrollar un \emph{script} para mejorar la estimación de los parámetros de la relación entre madurez BIM y desviación en los costos.
+\end{itemize}
+
+\section{Alcances del Estudio}
+
+Para el desarrollo de este trabajo se consideró la desviación de los costos asocidada a la etapa de construcción de los proyectos estudiados, la que fue extraída del detalle de los contratos en sus etapas iniciales y finales. Esto de acuerdo al requerimiento establecido por Codelco, cuya prioridad era conocer el impacto de la implementación del BIM en los costos de construcción de un proyecto.
+
+Además, la muestra sobre la que se trabajó es muy acotada ---tres proyectos de construcción de plantas minero-industriales---, sin embargo, el fin de este estudio no es entregar un modelo cuyo rigor estadístico permita su generalización, sino más bien proveer una metodología capaz de predecir los sobrecostos de un proyecto bajo cualquier contexto (construcción industrial, construcción comercial, etc) considerando solamente su nivel de madurez BIM, independiente de la escala que use para medirla.
+
+
+\section{Metodología de Trabajo}
+
+El desarrollo de la propuesta aquí presente se realizó de la siguiente manera:
+
+\begin{itemize}
+    \item Proposición del tema por parte de Codelco. Codelco necesitaba conocer de manera cuantitativa las ventajas de la utilización del BIM, dado que el uso de la tecnología BIM estaba asociada a una ``sensación'' de ahorro que necesitaba ser cuantificada.
+    \item Revisión bibliográfica y búsqueda en la literatura para conocer las maneras de medir cuantitativamente los beneficios asociados a la implementación del BIM en los diferentes proyectos de construcción en el mundo.
+    \item Reuniones semanales con el jefe del área BIM en Codelco para evaluar los avances en la propuesta y recibir \emph{feedback} sobre el trabajo realizado.
+    \item Minería de datos para establecer los sobrecostos en los proyectos estructurales realizados con BIM en la Vicepresidencia de Proyectos y así poder generar un vector de desviaciones en los costos de cada de los proyectos en la etapa de construcción.
+    \item Reuniones con el experto y coordinador BIM de los proyectos estudiados para conocer el \emph{rating} de madurez de cada proyecto con el fin de generar un vector de \emph{ratings} de madurez BIM.
+    \item Desarrollo de un indicador de madurez consecuente con la relación inversa entre madurez BIM y desviación de en los costos de un proyecto.
+    \item Utilización de técnicas predictivas, en particular, mínimos cuadrados ordinarios, para generar un modelo capaz de predecir las desviaciones de costos en la etapa de construcción de los proyectos de acuerdo al nivel de madurez BIM alcanzado por cada uno de ellos.
+    \item Presentación de resultados ante comisión experta de la Cámara Chilena de la Construcción, el jefe BIM de codelco y el equipo BIM de la Vicepresidencia de Proyectos.
+    \item Entrega de informe con las conclusiones y sugerencias pertinentes.
+\end{itemize}
+
+\section{Estructura de la Memoria}
+
+El presente trabajo de Memoria se estructura de la siguiente manera:
+
+%completar esto una vez terminado el primer borrador de la Memoria

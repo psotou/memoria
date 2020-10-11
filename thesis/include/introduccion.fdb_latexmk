@@ -1,0 +1,13 @@
+# Fdb version 3
+["pdflatex"] 1578800859 "introduccion.tex" "introduccion.pdf" "introduccion" 1578800860
+  "/home/pas/.texlive2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1573510092 3687577 24458c85502e88ba3d7d6ee80872bf4d ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
+  "/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1571529271 4705165 89f805375525bb3eb1f534beca7104e4 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1574088520 35594 9aef19174c178978f61d14961262af5d ""
+  "introduccion.aux" 1578800859 8 a94a2480d3289e625eea47cd1b285758 ""
+  "introduccion.tex" 1574364269 12976 8041a47f0d4bdc0c2f92785bcb79eb0a ""
+  (generated)
+  "introduccion.pdf"
+  "introduccion.log"
