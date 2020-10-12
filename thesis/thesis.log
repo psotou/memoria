@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.8.28)  10 OCT 2020 16:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.8.28)  12 OCT 2020 19:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Pascual.Soto/Documents/memoria/thesis.tex
-(c:/Users/Pascual.Soto/Documents/memoria/thesis.tex
+**c:/Users/Pascual.Soto/Documents/memoria/thesis/thesis.tex
+(c:/Users/Pascual.Soto/Documents/memoria/thesis/thesis.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-08-07> (c:/texlive/2020/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
@@ -413,7 +413,7 @@ Package: babelbib 2019/03/11 v1.32 babelbib: multilingual bibliographies (HH)
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 \epsfxsize=\dimen170
 \epsfysize=\dimen171
-) (c:/Users/Pascual.Soto/Documents/memoria/sty/utfsm_tesis.sty
+) (c:/Users/Pascual.Soto/Documents/memoria/thesis/sty/utfsm_tesis.sty
 
 LaTeX Warning: You have requested package `sty/utfsm_tesis',
                but the package provides `utfsm_tesis'.
@@ -701,7 +701,7 @@ File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) (c:/texlive/2020/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box73
-) (c:/Users/Pascual.Soto/Documents/memoria/sty/xtocinc.sty
+) (c:/Users/Pascual.Soto/Documents/memoria/thesis/sty/xtocinc.sty
 \tclineskip=\skip66
 ) (c:/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/05/30 v3.4k Customizing captions (AR)
@@ -743,12 +743,12 @@ File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count323
 \l__pdf_internal_box=\box74
-) (c:/Users/Pascual.Soto/Documents/memoria/thesis.aux
+) (c:/Users/Pascual.Soto/Documents/memoria/thesis/thesis.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
- (c:/Users/Pascual.Soto/Documents/memoria/include/acknowledgements.aux) (c:/Users/Pascual.Soto/Documents/memoria/include/resumen.aux) (c:/Users/Pascual.Soto/Documents/memoria/include/abstract.aux) (c:/Users/Pascual.Soto/Documents/memoria/include/glossary.aux)
+ (c:/Users/Pascual.Soto/Documents/memoria/thesis/include/acknowledgements.aux) (c:/Users/Pascual.Soto/Documents/memoria/thesis/include/resumen.aux) (c:/Users/Pascual.Soto/Documents/memoria/thesis/include/abstract.aux) (c:/Users/Pascual.Soto/Documents/memoria/thesis/include/glossary.aux)
 
 LaTeX Warning: Label `tab.est' multiply defined.
 
@@ -806,7 +806,7 @@ LaTeX Info: Redefining \Ref on input line 520.
 LaTeX Info: Redefining \ref on input line 61.
 LaTeX Info: Redefining \pageref on input line 61.
 LaTeX Info: Redefining \nameref on input line 61.
- (c:/Users/Pascual.Soto/Documents/memoria/thesis.out) (c:/Users/Pascual.Soto/Documents/memoria/thesis.out)
+ (c:/Users/Pascual.Soto/Documents/memoria/thesis/thesis.out) (c:/Users/Pascual.Soto/Documents/memoria/thesis/thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
 
@@ -872,7 +872,7 @@ Package pdftex.def Info: images/isotipo_negro-eps-converted-to.pdf  used on inpu
 (pdftex.def)             Requested size: 128.79247pt x 93.89409pt.
 [1
 
-{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/Users/Pascual.Soto/Documents/memoria/images/isotipo_negro-eps-converted-to.pdf>]
+{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/Users/Pascual.Soto/Documents/memoria/thesis/images/isotipo_negro-eps-converted-to.pdf>]
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17.5> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <13> not available
@@ -899,11 +899,11 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
- [2 <c:/Users/Pascual.Soto/Documents/memoria/images/logo_usm-eps-converted-to.pdf>]
+ [2 <c:/Users/Pascual.Soto/Documents/memoria/thesis/images/logo_usm-eps-converted-to.pdf>]
 Acknowledgements
 \openout2 = `include/acknowledgements.aux'.
 
-(c:/Users/Pascual.Soto/Documents/memoria/include/acknowledgements.tex
+(c:/Users/Pascual.Soto/Documents/memoria/thesis/include/acknowledgements.tex
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24.88> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 1.
 ) [3
@@ -913,7 +913,7 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24.88> not available
 Resumen
 \openout2 = `include/resumen.aux'.
 
-(c:/Users/Pascual.Soto/Documents/memoria/include/resumen.tex) [4
+(c:/Users/Pascual.Soto/Documents/memoria/thesis/include/resumen.tex) [4
 
 
 
@@ -921,13 +921,13 @@ Resumen
 Abstract
 \openout2 = `include/abstract.aux'.
 
-(c:/Users/Pascual.Soto/Documents/memoria/include/abstract.tex) [5
+(c:/Users/Pascual.Soto/Documents/memoria/thesis/include/abstract.tex) [5
 
 
 
 ]
 \@defbaselineskip=\skip68
- (c:/Users/Pascual.Soto/Documents/memoria/thesis.toc
+ (c:/Users/Pascual.Soto/Documents/memoria/thesis/thesis.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
@@ -960,7 +960,7 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
- [7] (c:/Users/Pascual.Soto/Documents/memoria/thesis.lot
+ [7] (c:/Users/Pascual.Soto/Documents/memoria/thesis/thesis.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
@@ -971,7 +971,7 @@ LaTeX Info: Redefining \% on input line 2.
 
  [8
 
-] (c:/Users/Pascual.Soto/Documents/memoria/thesis.lof
+] (c:/Users/Pascual.Soto/Documents/memoria/thesis/thesis.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
@@ -986,12 +986,12 @@ LaTeX Info: Redefining \% on input line 2.
 Abbreviations
 \openout2 = `include/glossary.aux'.
 
-(c:/Users/Pascual.Soto/Documents/memoria/include/glossary.tex) [10
+(c:/Users/Pascual.Soto/Documents/memoria/thesis/include/glossary.tex) [10
 
 
 ]
 Las páginas del prefacio de la UTFSM_Tesis han sido escritas
-(c:/Users/Pascual.Soto/Documents/memoria/include/introduccion.tex
+(c:/Users/Pascual.Soto/Documents/memoria/thesis/include/introduccion.tex
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17.28> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 4.
@@ -1004,9 +1004,9 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
 LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 68.
  (c:/texlive/2020/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
-) [4] [5] [6]) (c:/Users/Pascual.Soto/Documents/memoria/include/definicion.tex [7] [8]
+) [4] [5] [6]) (c:/Users/Pascual.Soto/Documents/memoria/thesis/include/definicion.tex [7] [8]
 Cap\'{\i }tulo 2.
-) (c:/Users/Pascual.Soto/Documents/memoria/include/estado_arte.tex [9
+) (c:/Users/Pascual.Soto/Documents/memoria/thesis/include/estado_arte.tex [9
 
 ]
 Cap\'{\i }tulo 3.
@@ -1018,7 +1018,7 @@ LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 6.
  [10
 
-]) (c:/Users/Pascual.Soto/Documents/memoria/include/propuesta.tex [11]
+]) (c:/Users/Pascual.Soto/Documents/memoria/thesis/include/propuesta.tex [11]
 Cap\'{\i }tulo 4.
 [12
 
@@ -1045,20 +1045,20 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
- [25] [26]) (c:/Users/Pascual.Soto/Documents/memoria/include/conclusiones.tex [27]) [28
+ [25] [26]) (c:/Users/Pascual.Soto/Documents/memoria/thesis/include/conclusiones.tex [27]) [28
 
-] (c:/Users/Pascual.Soto/Documents/memoria/thesis.bbl) [29
+] (c:/Users/Pascual.Soto/Documents/memoria/thesis/thesis.bbl) [29
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
- (c:/Users/Pascual.Soto/Documents/memoria/thesis.aux
+ (c:/Users/Pascual.Soto/Documents/memoria/thesis/thesis.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
- (c:/Users/Pascual.Soto/Documents/memoria/include/acknowledgements.aux) (c:/Users/Pascual.Soto/Documents/memoria/include/resumen.aux) (c:/Users/Pascual.Soto/Documents/memoria/include/abstract.aux) (c:/Users/Pascual.Soto/Documents/memoria/include/glossary.aux))
+ (c:/Users/Pascual.Soto/Documents/memoria/thesis/include/acknowledgements.aux) (c:/Users/Pascual.Soto/Documents/memoria/thesis/include/resumen.aux) (c:/Users/Pascual.Soto/Documents/memoria/thesis/include/abstract.aux) (c:/Users/Pascual.Soto/Documents/memoria/thesis/include/glossary.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
@@ -1071,14 +1071,14 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
  33497 strings out of 480893
- 756516 string characters out of 5911972
+ 756943 string characters out of 5911972
  1279683 words of memory out of 5000000
  48246 multiletter control sequences out of 15000+600000
  615997 words of font info for 208 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,19n,127p,872b,2224s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,19n,127p,879b,2224s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxbsc.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txex.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txsy.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txtt.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:/Users/Pascual.Soto/Documents/memoria/thesis.pdf (39 pages, 204695 bytes).
+Output written on c:/Users/Pascual.Soto/Documents/memoria/thesis/thesis.pdf (39 pages, 204708 bytes).
 PDF statistics:
  566 PDF objects out of 1000 (max. 8388607)
  500 compressed objects within 5 object streams
