@@ -1,6 +1,29 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+{Banco Mundial}%
+}{%
+{Banco Mundial}%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+worldbank}
+\APACinsertmetastar {%
+worldbank}%
+\begin{APACrefauthors}%
+{Banco Mundial}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+\APACrefbtitle {Banco Mundial Datos.} {Banco mundial datos.}
+\newblock
+\APAChowpublished {Recuperado de
+  \url{https://datos.bancomundial.org/pais/chile}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Barlish%
 \ \BBA {} Sullivan%
 }{%
@@ -20,8 +43,8 @@ Barlish, K.%
 \newblock
 \APACrefYearMonthDay{2012}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {{How to measure the benefits of BIM — A case study
-  approach}} {{How to measure the benefits of BIM — A case study
+{\BBOQ}\APACrefatitle {{How to measure the benefits of {BIM} — A case study
+  approach}} {{How to measure the benefits of {BIM} — A case study
   approach}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Automation in construction}{24}{}{149--159}.
@@ -77,6 +100,29 @@ inversion-cochilco}%
 {\BBOQ}\APACrefatitle {Inversión en la minería chilena - Cartera de proyectos
   2018 - 2027} {Inversión en la minería chilena - cartera de proyectos 2018 -
   2027}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Corporación Nacional del Cobre}%
+}{%
+{Corporación Nacional del Cobre}%
+}{%
+{\protect \APACyear {{s/f}}}%
+}]{%
+metodologiaBIM}
+\APACinsertmetastar {%
+metodologiaBIM}%
+\begin{APACrefauthors}%
+{Corporación Nacional del Cobre}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{s/f}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Gestión Metodología {{BIM}}} {Gestión metodología
+  {{BIM}}}.{\BBCQ}
 \newblock
 
 \PrintBackRefs{\CurrentBib}
@@ -160,9 +206,9 @@ Lu, W.%
 \newblock
 \APACrefYearMonthDay{2012}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {{Generic model for measuring benefits of BIM as a
+{\BBOQ}\APACrefatitle {{Generic model for measuring benefits of {BIM} as a
   learning tool in construction tasks}} {{Generic model for measuring benefits
-  of BIM as a learning tool in construction tasks}}.{\BBCQ}
+  of {BIM} as a learning tool in construction tasks}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Construction Engineering and
   Management}{139}{2}{195--203}.
@@ -185,10 +231,10 @@ nbimstandard}%
 \newblock
 \APACrefYearMonthDay{2019}{}{}.
 \newblock
-\APACrefbtitle {What is BIM?} {What is bim?}
+\APACrefbtitle {What is {BIM}?} {What is {BIM}?}
 \newblock
-\begin{APACrefURL} \url{https://www.nationalbimstandard.org/faqs#faq1}
-  \end{APACrefURL}
+\APAChowpublished {Recuperado de
+  \url{https://www.nationalbimstandard.org/faqs#faq1}}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -208,7 +254,29 @@ NBS.%
 \newblock
 \APACrefYear{2018}.
 \newblock
-\APACrefbtitle {National BIM Report} {National bim report}.
+\APACrefbtitle {National {BIM} Report} {National {BIM} report}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Planbim}%
+}{%
+{Planbim}%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+planbim}
+\APACinsertmetastar {%
+planbim}%
+\begin{APACrefauthors}%
+{Planbim}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+\APACrefbtitle {Qué es Planbim.} {Qué es planbim.}
+\newblock
+\APAChowpublished {Recuperado de \url{https://planbim.cl/que-es-planbim}}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -229,9 +297,9 @@ Sald{\'\i}as, R\BPBI O\BPBI L.%
 \APACrefYearMonthDay{2010}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {Estimaci{\'o}n de los beneficios de realizar una
-  coordinaci{\'o}n digital de proyectos con tecnolog{\'\i}as BIM}
+  coordinaci{\'o}n digital de proyectos con tecnolog{\'\i}as {BIM}}
   {Estimaci{\'o}n de los beneficios de realizar una coordinaci{\'o}n digital de
-  proyectos con tecnolog{\'\i}as bim}.{\BBCQ}
+  proyectos con tecnolog{\'\i}as {BIM}}.{\BBCQ}
 \newblock
 
 \PrintBackRefs{\CurrentBib}

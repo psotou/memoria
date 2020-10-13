@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.8.28)  12 OCT 2020 19:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.8.28)  12 OCT 2020 22:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1000,11 +1000,7 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
 [1
 
 
-] [2] [3]
-LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 68.
- (c:/texlive/2020/texmf-dist/tex/latex/txfonts/ot1txtt.fd
-File: ot1txtt.fd 2000/12/15 v3.1
-) [4] [5] [6]) (c:/Users/Pascual.Soto/Documents/memoria/thesis/include/definicion.tex [7] [8]
+] [2] [3] [4] [5] [6] [7]) (c:/Users/Pascual.Soto/Documents/memoria/thesis/include/definicion.tex [8]
 Cap\'{\i }tulo 2.
 ) (c:/Users/Pascual.Soto/Documents/memoria/thesis/include/estado_arte.tex [9
 
@@ -1016,7 +1012,10 @@ File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 6.
- [10
+LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 6.
+ (c:/texlive/2020/texmf-dist/tex/latex/txfonts/ot1txtt.fd
+File: ot1txtt.fd 2000/12/15 v3.1
+) [10
 
 ]) (c:/Users/Pascual.Soto/Documents/memoria/thesis/include/propuesta.tex [11]
 Cap\'{\i }tulo 4.
@@ -1047,10 +1046,10 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
  [25] [26]) (c:/Users/Pascual.Soto/Documents/memoria/thesis/include/conclusiones.tex [27]) [28
 
-] (c:/Users/Pascual.Soto/Documents/memoria/thesis/thesis.bbl) [29
+] (c:/Users/Pascual.Soto/Documents/memoria/thesis/thesis.bbl [29
 
 
-]
+]) [30]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
  (c:/Users/Pascual.Soto/Documents/memoria/thesis/thesis.aux
@@ -1062,7 +1061,7 @@ LaTeX Info: Redefining \% on input line 27.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2C2C1F11A290EA6733566BA1F33ED12E;2341.
+(rerunfilecheck)             Checksum: 44933DAFC0AE2B5C7B74E1F7DBF1BC63;2341.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1070,18 +1069,18 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
- 33497 strings out of 480893
- 756943 string characters out of 5911972
+ 33509 strings out of 480893
+ 757101 string characters out of 5911972
  1279683 words of memory out of 5000000
- 48246 multiletter control sequences out of 15000+600000
+ 48255 multiletter control sequences out of 15000+600000
  615997 words of font info for 208 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,19n,127p,879b,2224s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxbsc.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txex.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txsy.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txtt.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:/Users/Pascual.Soto/Documents/memoria/thesis/thesis.pdf (39 pages, 204708 bytes).
+Output written on c:/Users/Pascual.Soto/Documents/memoria/thesis/thesis.pdf (40 pages, 207484 bytes).
 PDF statistics:
- 566 PDF objects out of 1000 (max. 8388607)
- 500 compressed objects within 5 object streams
- 130 named destinations out of 1000 (max. 500000)
+ 583 PDF objects out of 1000 (max. 8388607)
+ 515 compressed objects within 6 object streams
+ 133 named destinations out of 1000 (max. 500000)
  326 words of extra memory for PDF output out of 10000 (max. 10000000)
 

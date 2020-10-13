@@ -11,7 +11,7 @@
 \contentsline {section}{\numberline {1.1}Antecedentes Generales}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}La Metodología BIM}{1}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}La Construcción en el Sector Minero}{3}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}BIM en Codelco}{4}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.3}BIM en CODELCO}{4}{subsection.1.1.3}%
 \contentsline {section}{\numberline {1.2}Motivación}{5}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Objetivos}{6}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Objetivo General}{6}{subsection.1.3.1}%

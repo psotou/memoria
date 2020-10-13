@@ -18,47 +18,48 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bib/papers.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in inversion-cochilco
+Warning--No journal in metodologiaBIM
 Warning--No journal in hansen2018
 Warning--No journal in saldias2010estimacion
-You've used 11 entries,
+You've used 14 entries,
             6951 wiz_defined-function locations,
-            1329 strings with 12439 characters,
-and the built_in function-call counts, 19570 in all, are:
-= -- 2462
-> -- 152
-< -- 926
-+ -- 892
-- -- 28
-* -- 1186
-:= -- 3597
-add.period$ -- 48
-call.type$ -- 11
-change.case$ -- 189
+            1342 strings with 12752 characters,
+and the built_in function-call counts, 23078 in all, are:
+= -- 2904
+> -- 182
+< -- 1036
++ -- 970
+- -- 40
+* -- 1352
+:= -- 4145
+add.period$ -- 63
+call.type$ -- 14
+change.case$ -- 240
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 433
-empty$ -- 780
-format.name$ -- 237
-if$ -- 3769
+cite$ -- 32
+duplicate$ -- 518
+empty$ -- 964
+format.name$ -- 279
+if$ -- 4522
 int.to.chr$ -- 0
-int.to.str$ -- 33
+int.to.str$ -- 42
 missing$ -- 0
-newline$ -- 265
-num.names$ -- 88
-pop$ -- 380
+newline$ -- 331
+num.names$ -- 112
+pop$ -- 535
 preamble$ -- 1
-purify$ -- 44
+purify$ -- 56
 quote$ -- 0
-skip$ -- 1367
+skip$ -- 1614
 stack$ -- 0
-substring$ -- 961
-swap$ -- 260
-text.length$ -- 30
+substring$ -- 1051
+swap$ -- 302
+text.length$ -- 39
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1008
-warning$ -- 3
-while$ -- 80
+type$ -- 1248
+warning$ -- 4
+while$ -- 95
 width$ -- 0
-write$ -- 314
-(There were 3 warnings)
+write$ -- 386
+(There were 4 warnings)
