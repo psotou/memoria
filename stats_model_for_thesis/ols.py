@@ -1,8 +1,9 @@
 import pandas as pd
 import statsmodels.api as sm
+import os
 
 def main():
-    path:str = "/home/pas/code/python/stats_model_for_thesis/data.csv"
+    path:str = os.getcwd() + "/data.csv"
 
     # Matriz de datos globales
     data_df = pd.read_csv(path)
@@ -17,7 +18,6 @@ def main():
                         exog=x_data,
                         missing="drop")
     result_reg = regression.fit()
-    type(result_reg)
     result_summary = result_reg.summary()
 
     print(result_summary)
@@ -27,4 +27,3 @@ def main():
     
 if __name__ == "__main__":
     main()
-    
