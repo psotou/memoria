@@ -333,6 +333,31 @@ Succar, B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Tabilo~Vallade%
+}{%
+Tabilo~Vallade%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+tabilo2019estudio}
+\APACinsertmetastar {%
+tabilo2019estudio}%
+\begin{APACrefauthors}%
+Tabilo~Vallade, M\BPBI I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Estudio de la metodolog{\'\i}a BIM en la gesti{\'o}n de
+  construcci{\'o}n y aplicaci{\'o}n demostrativa} {Estudio de la
+  metodolog{\'\i}a bim en la gesti{\'o}n de construcci{\'o}n y aplicaci{\'o}n
+  demostrativa}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Verbeek%
 }{%
 Verbeek%
