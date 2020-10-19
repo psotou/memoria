@@ -22,45 +22,46 @@ Warning--No journal in metodologiaBIM
 Warning--No journal in hansen2018
 Warning--No journal in saldias2010estimacion
 Warning--No journal in tabilo2019estudio
-You've used 15 entries,
+Warning--No journal in trejo2018estudio
+You've used 19 entries,
             6951 wiz_defined-function locations,
-            1345 strings with 12906 characters,
-and the built_in function-call counts, 24925 in all, are:
-= -- 3137
-> -- 192
-< -- 1143
-+ -- 1075
-- -- 42
-* -- 1471
-:= -- 4525
-add.period$ -- 67
-call.type$ -- 15
-change.case$ -- 257
+            1359 strings with 13616 characters,
+and the built_in function-call counts, 30103 in all, are:
+= -- 3808
+> -- 215
+< -- 1378
++ -- 1256
+- -- 56
+* -- 1731
+:= -- 5474
+add.period$ -- 86
+call.type$ -- 19
+change.case$ -- 325
 chr.to.int$ -- 0
-cite$ -- 35
-duplicate$ -- 549
-empty$ -- 1024
-format.name$ -- 293
-if$ -- 4858
+cite$ -- 44
+duplicate$ -- 634
+empty$ -- 1260
+format.name$ -- 313
+if$ -- 5918
 int.to.chr$ -- 0
-int.to.str$ -- 45
+int.to.str$ -- 57
 missing$ -- 0
-newline$ -- 353
-num.names$ -- 120
-pop$ -- 554
+newline$ -- 433
+num.names$ -- 152
+pop$ -- 775
 preamble$ -- 1
-purify$ -- 60
+purify$ -- 76
 quote$ -- 0
-skip$ -- 1741
+skip$ -- 2069
 stack$ -- 0
-substring$ -- 1163
-swap$ -- 320
-text.length$ -- 41
+substring$ -- 1364
+swap$ -- 356
+text.length$ -- 52
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1328
-warning$ -- 5
-while$ -- 100
+type$ -- 1648
+warning$ -- 6
+while$ -- 109
 width$ -- 0
-write$ -- 410
-(There were 5 warnings)
+write$ -- 487
+(There were 6 warnings)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.8.28)  17 OCT 2020 22:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.8.28)  18 OCT 2020 15:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -865,7 +865,7 @@ Package epstopdf Info: Source file: <images/isotipo_negro.eps>
 (epstopdf)             Command: <repstopdf --outfile=images/isotipo_negro-eps-converted-to.pdf images/isotipo_negro.eps>
 (epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
-<images/isotipo_negro-eps-converted-to.pdf, id=154, 692.5875pt x 504.88625pt>
+<images/isotipo_negro-eps-converted-to.pdf, id=166, 692.5875pt x 504.88625pt>
 File: images/isotipo_negro-eps-converted-to.pdf Graphic file (type pdf)
 <use images/isotipo_negro-eps-converted-to.pdf>
 Package pdftex.def Info: images/isotipo_negro-eps-converted-to.pdf  used on input line 85.
@@ -888,7 +888,7 @@ Package epstopdf Info: Source file: <images/logo_usm.eps>
 (epstopdf)             Command: <repstopdf --outfile=images/logo_usm-eps-converted-to.pdf images/logo_usm.eps>
 (epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
-<images/logo_usm-eps-converted-to.pdf, id=165, 591.20876pt x 428.60126pt>
+<images/logo_usm-eps-converted-to.pdf, id=177, 591.20876pt x 428.60126pt>
 File: images/logo_usm-eps-converted-to.pdf Graphic file (type pdf)
 <use images/logo_usm-eps-converted-to.pdf>
 Package pdftex.def Info: images/logo_usm-eps-converted-to.pdf  used on input line 85.
@@ -956,12 +956,152 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [6
 
 
-])
+] [7])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
- [7] (c:/Users/Pascual.Soto/Documents/memoria/thesis_document/thesis.lot
+ [8] (c:/Users/Pascual.Soto/Documents/memoria/thesis_document/thesis.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefi
+LaTeX Info: Redefining \% on input line 2.
+)
+\tf@lot=\write6
+\openout6 = `thesis.lot'.
+
+ [9
+
+] (c:/Users/Pascual.Soto/Documents/memoria/thesis_document/thesis.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+)
+\tf@lof=\write7
+\openout7 = `thesis.lof'.
+
+ [10
+
+]
+Abbreviations
+\openout2 = `include/glossary.aux'.
+
+(c:/Users/Pascual.Soto/Documents/memoria/thesis_document/include/glossary.tex) [11
+
+
+]
+Las páginas del prefacio de la UTFSM_Tesis han sido escritas
+(c:/Users/Pascual.Soto/Documents/memoria/thesis_document/include/introduccion.tex
+Cap\'{\i }tulo 1.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17.28> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 6.
+[1
+
+
+] [2] [3] [4] [5] [6] [7]) (c:/Users/Pascual.Soto/Documents/memoria/thesis_document/include/definicion.tex [8]
+Cap\'{\i }tulo 2.
+) (c:/Users/Pascual.Soto/Documents/memoria/thesis_document/include/estado_arte.tex [9
+
+]
+Cap\'{\i }tulo 3.
+
+Overfull \hbox (3.85916pt too wide) in paragraph at lines 10--11
+[]\OT1/txr/bx/n/12 Building In-for-ma-tion Mo-del: \OT1/txr/m/n/12 re-pre-sen-ta-ci[]on di-gi-tal pa-ram[]etri-ca del pro-duc-to de cons-
+ []
+
+[10
+
+] [11]
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 39.
+ (c:/texlive/2020/texmf-dist/tex/latex/txfonts/ts1txr.fd
+File: ts1txr.fd 2000/12/15 v3.1
+) [12]
+<images/LOD.png, id=398, 341.57802pt x 120.67726pt>
+File: images/LOD.png Graphic file (type png)
+<use images/LOD.png>
+Package pdftex.def Info: images/LOD.png  used on input line 59.
+(pdftex.def)             Requested size: 286.65881pt x 101.27797pt.
+ [13 <c:/Users/Pascual.Soto/Documents/memoria/thesis_document/images/LOD.png>] [14]
+<images/lod-arch.jpg, id=418, 1104.125pt x 407.5225pt>
+File: images/lod-arch.jpg Graphic file (type jpg)
+<use images/lod-arch.jpg>
+Package pdftex.def Info: images/lod-arch.jpg  used on input line 89.
+(pdftex.def)             Requested size: 418.96547pt x 154.63629pt.
+ [15 <c:/Users/Pascual.Soto/Documents/memoria/thesis_document/images/lod-arch.jpg>] [16] [17]) (c:/Users/Pascual.Soto/Documents/memoria/thesis_document/include/propuesta.tex [18]
+Cap\'{\i }tulo 4.
+[19
+
+] [20] [21]
+LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 88.
+ (c:/texlive/2020/texmf-dist/tex/latex/txfonts/ot1txtt.fd
+File: ot1txtt.fd 2000/12/15 v3.1
+) [22] [23] [24] [25] [26] [27] [28]
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+ [29] [30]
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+ [31]
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+ [32] [33]) (c:/Users/Pascual.Soto/Documents/memoria/thesis_document/include/conclusiones.tex [34]) [35
+
+] (c:/Users/Pascual.Soto/Documents/memoria/thesis_document/thesis.bbl
+Underfull \hbox (badness 2435) in paragraph at lines 238--249
+[]\OT1/txr/m/n/12 Librer[]^^Pa Na-cio-nal BIM.  (2018).  \OT1/txr/m/it/12 Qu^^Se es BIM.  \OT1/txr/m/n/12 Re-cu-pe-ra-do de [][]$\OT1/txtt/m/n/12 http :// www []
+ []
+
+[36
+
+
+]) [37]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
+ (c:/Users/Pascual.Soto/Documents/memoria/thesis_document/thesis.aux
+LaTeX Info: Redefining \. on input line 26.
+LaTeX Info: Redefining \% on input line 26.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+ (c:/Users/Pascual.Soto/Documents/memoria/thesis_document/include/acknowledgements.aux) (c:/Users/Pascual.Soto/Documents/memoria/thesis_document/include/resumen.aux) (c:/Users/Pascual.Soto/Documents/memoria/thesis_document/include/abstract.aux) (c:/Users/Pascual.Soto/Documents/memoria/thesis_document/include/glossary.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 5C3CF7E0D120278452EB1AE57EA8890C;2559.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
+ ) 
+Here is how much of TeX's memory you used:
+ 33589 strings out of 480893
+ 758775 string characters out of 5911972
+ 1279683 words of memory out of 5000000
+ 48308 multiletter control sequences out of 15000+600000
+ 617920 words of font info for 214 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 73i,19n,127p,929b,2224s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtcxi.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxbsc.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txex.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txsy.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txtt.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on c:/Users/Pascual.Soto/Documents/memoria/thesis_document/thesis.pdf (48 pages, 323395 bytes).
+PDF statistics:
+ 698 PDF objects out of 1000 (max. 8388607)
+ 614 compressed objects within 7 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 360 words of extra memory for PDF output out of 10000 (max. 10000000)
+

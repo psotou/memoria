@@ -51,6 +51,81 @@ Barlish, K.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+{BIM Forum Chile}%
+}{%
+{BIM Forum Chile}%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+bimforum2}
+\APACinsertmetastar {%
+bimforum2}%
+\begin{APACrefauthors}%
+{BIM Forum Chile}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {{Guía inicial para implementar BIM en las organizaciones}.}
+  {{Guía inicial para implementar BIM en las organizaciones}.}
+\newblock
+\APAChowpublished {Recuperado de
+  \url{https://www.academia.edu/42990150/Bc90_6_guia_inicial_para_implementar_bim_en_las_organizaciones_version_imprenta}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{BIM Forum Chile}%
+}{%
+{BIM Forum Chile}%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+bimforum}
+\APACinsertmetastar {%
+bimforum}%
+\begin{APACrefauthors}%
+{BIM Forum Chile}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+\APACrefbtitle {{BIM forum Chile participará en actividad de DOUC UC}.} {{BIM
+  forum Chile participará en actividad de DOUC UC}.}
+\newblock
+\APAChowpublished {Recuperado de
+  \url{https://www.bimforum.cl/2017/04/28/bim-forum-chile-participara-en-actividad-de-duoc-uc/}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+C{\'a}rdenas%
+}{%
+C{\'a}rdenas%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+cardenas2016incorporacion}
+\APACinsertmetastar {%
+cardenas2016incorporacion}%
+\begin{APACrefauthors}%
+C{\'a}rdenas, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Incorporaci{\'o}n de Metodolog{\'\i}a BIM en la
+  Gesti{\'o}n Integrada de Proyectos (Tesis de maestr{\'\i}a)}
+  {Incorporaci{\'o}n de metodolog{\'\i}a bim en la gesti{\'o}n integrada de
+  proyectos (tesis de maestr{\'\i}a)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Universidad Europea. Madrid, Espa{\~n}a. Recuperado de:
+  bimchannel. net/wpcontent/uploads/2017/01/201701\_TFM\_Margarita-C\% C3\%
+  A1rdenas. pdf}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Chang%
 \ \BBA {} Howard%
 }{%
@@ -150,37 +225,26 @@ Hansen, B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Lu%
-, Fung%
-, Peng%
-, Liang%
-\BCBL {}\ \BBA {} Rowlinson%
+{Librería Nacional BIM}%
 }{%
-Lu%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2014}}%
+{Librería Nacional BIM}%
+}{%
+{\protect \APACyear {2018}}%
 }]{%
-lu2014cost}
+lnb}
 \APACinsertmetastar {%
-lu2014cost}%
+lnb}%
 \begin{APACrefauthors}%
-Lu, W.%
-, Fung, A.%
-, Peng, Y.%
-, Liang, C.%
-\BCBL {}\ \BBA {} Rowlinson, S.%
+{Librería Nacional BIM}.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2014}{}{}.
+\APACrefYearMonthDay{2018}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {{Cost-benefit analysis of Building Information Modeling
-  implementation in building projects through demystification of time-effort
-  distribution curves}} {{Cost-benefit analysis of Building Information
-  Modeling implementation in building projects through demystification of
-  time-effort distribution curves}}.{\BBCQ}
+\APACrefbtitle {{Qué es BIM}.} {{Qué es BIM}.}
 \newblock
-\APACjournalVolNumPages{Building and environment}{82}{}{317--327}.
+\APAChowpublished {Recuperado de
+  \url{http://www.librerianacionalbim.cl/que-es-bim/}}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -353,6 +417,32 @@ Tabilo~Vallade, M\BPBI I.%
   construcci{\'o}n y aplicaci{\'o}n demostrativa} {Estudio de la
   metodolog{\'\i}a bim en la gesti{\'o}n de construcci{\'o}n y aplicaci{\'o}n
   demostrativa}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Trejo~Carvajal%
+}{%
+Trejo~Carvajal%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+trejo2018estudio}
+\APACinsertmetastar {%
+trejo2018estudio}%
+\begin{APACrefauthors}%
+Trejo~Carvajal, N\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Estudio de impacto del uso de la metodolog{\'\i}a BIM en
+  la planificaci{\'o}n y control de proyectos de ingenier{\'\i}a y
+  construcci{\'o}n} {Estudio de impacto del uso de la metodolog{\'\i}a bim en
+  la planificaci{\'o}n y control de proyectos de ingenier{\'\i}a y
+  construcci{\'o}n}.{\BBCQ}
 \newblock
 
 \PrintBackRefs{\CurrentBib}

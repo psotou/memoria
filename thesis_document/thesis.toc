@@ -1,0 +1,44 @@
+\babel@toc {spanish}{}
+\babel@toc {spanish}{}
+\contentsline {chapter}{Agradecimientos}{\es@scroman {iii}}{chapter*.1}%
+\contentsline {chapter}{Resumen}{\es@scroman {iv}}{chapter*.2}%
+\contentsline {chapter}{Abstract}{\es@scroman {v}}{chapter*.3}%
+\contentsline {chapter}{Índice de Contenidos}{\es@scroman {vi}}{chapter*.4}%
+\contentsline {chapter}{Lista de Tablas}{\es@scroman {ix}}{chapter*.5}%
+\contentsline {chapter}{Lista de Figuras}{\es@scroman {x}}{chapter*.6}%
+\contentsline {chapter}{Glosario}{\es@scroman {xi}}{chapter*.7}%
+\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Antecedentes Generales}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}La Metodología BIM}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}La Construcción en el Sector Minero}{3}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}BIM en CODELCO}{4}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}Motivación}{5}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Objetivos}{6}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Objetivo General}{6}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Objetivos Secundarios}{6}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Alcances del Estudio}{6}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Metodología de Trabajo}{7}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Estructura de la Memoria}{8}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Definición del Problema}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Contexto}{9}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Estado del Arte}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}La metodología BIM}{10}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Dimensiones BIM}{11}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Niveles de información BIM}{12}{subsection.3.1.2}%
+\contentsline {subsubsection}{Niveles de detalle}{13}{section*.11}%
+\contentsline {subsubsection}{Niveles de información}{14}{section*.13}%
+\contentsline {subsubsection}{Niveles de desarrollo}{14}{section*.14}%
+\contentsline {subsection}{\numberline {3.1.3}BIM en Chile}{16}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Ventajas de la metodología BIM}{16}{subsection.3.1.4}%
+\contentsline {chapter}{\numberline {4}Propuesta}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Métrica propuesta}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Selección y generación de datos}{20}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Criterio de selección}{20}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Herramienta de selección y generación de base de datos}{22}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Teoría del modelo propuesto}{24}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Modelo propuesto}{27}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Submuestra homogénea}{28}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Muestra Total}{30}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Análisis de Resultados}{33}{subsection.4.4.3}%
+\contentsline {chapter}{Conclusiones}{35}{chapter*.26}%
+\contentsline {chapter}{Referencias}{36}{chapter*.27}%

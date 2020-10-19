@@ -4,24 +4,126 @@
 
 La metodología BIM consiste en un conjunto de tecnologías, metolodogías y estándares que permiten y facilitan el diseño, la construcción y la operación de un proyecto de construcción de forma colaborativa en un espacio virtual compartido \cite{tabilo2019estudio}.
 
-Por otro lado, es común encontrarse con dos definiciones en la literatura que difieren ligeramentea la hora de abordar el BIM en términos conceptulaes. Estas definciones se pueden agrupar y conceptualizar de la siguiente manera:
+Por otro lado, es común encontrarse con dos definiciones en la literatura que difieren ligeramentea la hora de abordar el BIM en términos conceptulaes. Estas definciones se pueden agrupar y conceptualizar de acuerdo a las siguientes definiciones:
 
 \begin{enumerate}
-    \item \textbf{Building Information Model:} modelo digital paramétrico del producto de construcción.
-    \item \textbf{Building Information Modeling:} metodología para el desarrollo y uso de modelos BIM para ``decisiones de diseño, construcción y operación durante todo el ciclo de vida de un proyecto, lo que implica una integración y gestión de información provista y usada por diferentes actores del proyecto” (BIM Forum Chile, 2017, p.9).
+    \item \textbf{Building Information Model:} representación digital paramétrica del producto de construcción, es decir, losas, muros, pilares, equipamiento, puertas, ventanas, etcétera, que incluye su geometría e información \cite{lnb}.
+    \item \textbf{Building Information Modeling:} metodología/proceso  que permite desarrollar y utilizar diversos modelos  de representación digital paramétrica para apoyar decisiones de diseño, construcción y operación durante todo el ciclo de vida de un proyecto, lo que implica una integración y gestión de información provista y usada por diferentes actores del proyecto. De esta manera, se busca disminuir la pérdida tanto de tiempo como de recursos durante el diseño y la ejecución de la obra \cite{bimforum}.
 \end{enumerate}
 
+Ambos conceptos son complementarios. En este sentido, no merece la pena hacer distinciones entre uno y otro y se pueden utilizar de manera intercambiable, dado que la metodología BIM requiere de un modelo BIM para su desarrollo. Asimismo, el modelo BIM pierde su potencial si este no se utiliza bajo un marco conceptual adecuado \cite{cardenas2016incorporacion}.
 
-%Thus, \shortcite{lu2014cost} 
-Ejemplos con \textbackslash \texttt{cite}: \shortciteA{lu2014cost}; \cite{lu2014cost}; \citeA{lu2014cost} y \citeNP{lu2014cost}.
+El eje central del BIM es, entonces, la colaboración entre las diferentes partes que conforman las fases del ciclo de vida de un proyecto, y cuya tarea es insertar, extraer, actualizar o modificar información en el modelo BIM para apoyar y reflejar las funciones del proyecto de construcción. Esto permite el flujo de información (cuya particularidad es que se actualiza de manera instantánea), control, supervisión y validación de todos los procesos involucrados. Trabajar de esta manera permite que todos los cambios realizados en el modelo sean de conocidos por todos los \textit{stakeholders} del proyecto \cite{trejo2018estudio}.
+
+Es importante mencionar que, si bien el BIM es una metodología que permite la pronta detección y corrección de errores de cualquier tipo, y que,además, reduce las tareas repetitivas y redundantes, la ingesta de información del modelo es responsabilidad de personas. Son las personas quienes reúnen y e ingresan la información, por lo que no se debe pensar en el BIM como una metodología \textit{error free}.
+
+
+\subsection{Dimensiones BIM}
+
+Un proyecto concebido bajo la metodología BIM tiene un ciclo de vida que comienza con una idea y termina con la mantención del proyecto. Así, el ciclo de vida de un proyecto BIM se puede dividir en siete fases, que la literatura ha denominado como las dimensiones BIM \cite{tabilo2019estudio}:
+
+\begin{itemize}
+    \item \textbf{1D (la idea):} la idea permite definir las condiciones inciales, realizando las primeras estimaciones de sueprficie, volúmenes y costos. También se establece el plan de ejecución.
+    \item \textbf{2D (el boceto):} se elije y prepara el \textit{software} para hacer la modelación del proyecto. Se definen los materiales, las cargas estructurales y se establecen las bases para la sostenibilidad del proyecto.
+    \item \textbf{3D (modelo de información de la construcción
+    ):} con toda la información recopilada se genera el modelo 3D que servirá como base para el resto del ciclo de vida del proyecto. No es sólo un modelo gráfico, sino que además incorpora toda la información que se necesitará para las siguientes fases.
+    \item \textbf{4D (tiempo):} se incorpara la variable tiempo. Es decir, se definen las fases del proyecto y la duración de estas. Establece la planificación de los plazos de todo el proyecto.
+    \item \textbf{5D (costos):} se incorpora el control de costos y estimación de gastos del proyecto.
+    \item \textbf{6D (simulación):} consiste en simular las posibles alternativas del proyecto para finalmente llegar a la alternativa óptima, todo esto antes de comenzar la construcción del proyecto.
+    \item \textbf{7D (instructivo):} se establece el manual de la vida útil del proyecto una vez construido, para el uso y mantenimiento de éste.
+\end{itemize}
+
+
+\subsection{Niveles de información BIM}
+
+Existen distintos niveles de información BIM ya sea para el detalle, el desarrollo y la información del proyecto de construcción. Sin embargo, existe un concepto común que agrupa todos los niveles de información existentes. El concepto es el acrónimo LOD. No obstante, el LOD adopta interpretaciones distintas según la fuente de su procedencia. Así, para los estándares de Estados Unidos, definidos por la \textit{National BIM Standard-United Sates\textregistered} (NBIMS-US\texttrademark), LOD hace referencia a \textit{Level of Development}. Por otro lado, los estándares británicos están definidos por la \textit{National Building Specification} (NBS-UK), en los que LOD hace referencia a \textit{Level of Definition} \cite{trejo2018estudio}.
+
+el \citeA{bimforum2} indica que la diferncia fundamental es que el nivel de detalle se incluye en el elemento del modelo (NBS-UK), mientras que el nivel de desarrollo es el grado en que la geometría e información del elemento se ha pensado; es decir, según la fase de diseño del proyecto, por lo que entrega un cierto nivel de confianza para seguir avanzando en el desarrollo del proyecto en el modelo (US).
+
+\subsubsection{Niveles de detalle}
+
+El NBS-UK plantea que el término \textit{Level of Definition} se refiere al nivel de detalle (descripción gráfica de los modelos en cada etapa). Dicha institución también define un \textit{Level of Information} (LOI), que describe el contendo no gráfico del modelo en cada etapa \cite{trejo2018estudio}.
+
+A continuación de describen los LOD e LOI definidos por el NBS-UK de acuerdo a lo señalado por el \cite{bimforum2}:
+
+\begin{itemize}
+    \item \textbf{LOD 1:} conceptualización. Casi nula geometría.
+    \item \textbf{LOD 2:} el elemento de construcción modelado proporciona una indicación visual del elemento en la etapa conceptual, identificando requerimientos claves como el acceso o zonas libres para el posterior mantenimiento. Esta información es adecuada para la coordinación espacial inicial de los elementos o sistemas.
+    \item \textbf{LOD 3:} el elemento de construcción modelado proporciona una representación visual del elemento en la etapa de definiciones técnicas para su coordinación espacial completa.
+    \item \textbf{LOD 4:} el elemento de construcción modelado proporciona una representación visual del elemento para una etapa de diseño, con su coordinación espacial completa.
+    \item \textbf{LOD 5:} el elemento de construcción modelado proporciona una representación visual del elemento en el proyecto construido y provee una referencia, para su posterior uso y mantenimiento.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.65\linewidth]{images/LOD.png}
+    \caption{Ejemplo de nivel de definición.}
+\end{figure}
+
+\subsubsection{Niveles de información}
+
+Los niveles de información (LOI) definidos por la NBS-UK y descritos por el \citeA{bimforum2} se muestran a continuación:
+
+\begin{itemize}
+    \item \textbf{LOI 2 y 3:} el elemento modelado proporciona una descripción inicial para una entrega hacia el diseño.
+    \item \textbf{LOI 4:} el elemento modelado proporciona una información suficiente para permitir la selección del producto de fabricante que cumpla con sus requerimientos. Esta información también puede ser utilizada para reemplazar un elemento durante el ciclo de vida del proyecto, una vez construido.
+    \item \textbf{LOI 5:} el elemento modelado proporciona la información específica del producto de fabricante seleccionado o lo construido y entregado. Cualquier información adicional pertinente durante el proceso de construcción o instalación es indicada dentro de este nivel.
+    \item \textbf{LOI 6:} el elemento modelado proporciona la información acumulada de los niveles anteriores y además considera información detallada del mantenimiento efectuado.
+\end{itemize}
+
+\subsubsection{Niveles de desarrollo}
+
+Adicionalmente, el \textit{American Institute of Architects} (AIA) define al nivel de desarrollo como la forma de identificar requisitos mínimos y usos específicos a cada elemento del modelo, en un respectivo nivel. Los siguientes, son los niveles de desarrollo, en base a lo expuesto por el \citeA{bimforum2}:
+
+\begin{itemize}
+    \item \textbf{LOD 100:} el elemento puede ser representado gráficamente en el modelo con un símbolo u representación genérica. Estas representaciones muestran la existencia de un componente, pero no su forma, tamaño o ubicación precisa. La información debe ser considerada aproximada.
+    \item \textbf{LOD 200:} el elemento se representa gráficamente como un sistema genérico de objeto, tamaño, forma, ubicación y orientación aproximados. La información no gráfica también es aproximada. Estas representaciones son respecto del volumen o espacio reservado.
+    \item \textbf{LOD 300:} el elemento representa gráficamente como un objeto o sistema específico en términos de cantidad, tamaño, forma, ubicación y orientación. La información no gráfica se corresponde con la información gráfica. Las cantidades, dimensiones, formas, ubicación y orientación según lo diseñado se pueden obtener directamente a del elemento.
+    \item \textbf{LOD 350:} igual al LOD 300, pero las representaciones se vinculan con otros elementos del modelo cercano o adjunto y se incluyen las partes tales como soportes o conexiones.
+    \item \textbf{LOD 400:} LOD 350 más la modelación. Estas representaciones se modelan con la precisión y detalle suficiente para su fabricación e instalación.       
+    \item \textbf{LOD 500:} el elemento modelado es una representación fiel del elemento de construcción ya ejecutado en obra, con su tamaño, forma, ubicación y orientación real en el proyecto. La información no gráfica está incluida en el objeto, así como sus vínculos con otros elementos. Estas representaciones se realizan una vez construido el proyecto y son las adecuadas para el mantenimiento y el funcionamiento del elemento en el inmueble.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\linewidth]{images/lod-arch.jpg}
+    \caption{Ejemplo de nivel de desarrollo.}
+\end{figure}
+
+% \subsection{Madurez BIM} Movido a propuesta
+
+\subsection{BIM en Chile}
+
+El BIM en Chile comenzó su desarrollo desde el ámbito de la arquitectura, expandiéndose a ingeniería, construcción y operaciones. Los primeros indicios del uso de BIM se dieron en la infraestructura hospitalaria, dadas las exigencias en las licitaciones desde el 2009. Dados los beneficios obtenidos en estas experiencias, el BIM se hizo cada vez más atractivos para las demás áreas de la industria \cite{trejo2018estudio}.
+
+El desarrollo de BIM en Chile ha sido monitoreado por distintas entidades, como lo son la CDT, el BIM Forum Chile, universidades, entre otros.
+
+El \citeA{bimforum2}, según sus propias definiciones, es una instancia técnica y permanente, que convoca a los principales profesionales e instituciones relacionadas al BIM en Chile. Busca canalizar las inquietudes técnicas, el conocimiento y la información relacionados a BIM, constituyéndose también en una instancia de desarrollo, difusión y buenas prácticas para el desarrollo tecnológico en el sector construcción.
+
+Los propósitos de BIM Forum Chile son netamente técnicos y sesiona bajo la coordinación de la Corporación de Desarrollo Tecnológico (CDT) de la Cámara Chilena de la Construcción (CChC). También es una instancia abierta y convocante, agrupando a las empresas y profesionales que puedan aportar sus conocimientos y experiencias al mejoramiento de las técnicas relacionadas a BIM.
 
 \subsection{Ventajas de la metodología BIM}
 
-La metodología BIM, considerada como plataforma de coordinación, puede tener dos efectos en el comportamiento de un contrato \cite{chang2014economic}: 
-\begin{enumerate}
+En términos generales, la \citeA{lnb} indica que la principal ventaja es la visualización en 3D de lo que se está proyectando, permitiendo realizar ensayos o probar distintas configuraciones antes de la ejecución, cuantificación automática de cubicaciones, identificación de interferencias, fabricaciones e impulso en la industrialización de la construcción.
+
+En esta línea, la \citeA{lnb} plantea las siguientes ventajas para los usuarios y para el proyecto:
+
+\begin{itemize}
+    \item El uso de la metodología y herramientas en general permite establecer un estándar de desarrollo de proyectos, un orden, una mejora de productividad; una vez superada la curva de aprendizaje, mayor rendimiento o menores plazos en el desarrollo de tareas habituales en los proyectos o abarcar más proyectos por la misma cantidad de profesionales, entre otras. El beneficio real que se obtenga de BIM depende de diversos factores, como los objetivos buscados por cada participante, la capacidad de comunicación entre actores, capacidades tecnológicas y humanas de cada oficina, entre otros.
+    \item {El uso de BIM en general requiere de un mayor esfuerzo en la fase de diseño de los proyectos, pero esto se retribuye con la posibilidad de realizar ensayos, simulaciones virtuales y distintos tipos de análisis permitiendo la toma de mejores decisiones y más informadas. También se pueden observar menores inconsistencias e interferencias al momento de construir, sin mayores aumentos de plazos y con costos controlados, evitando las ineficiencias por falta de definiciones en el proyecto. Tener múltiples opciones de diseño sin la necesidad de modificar todo el universo de planos o documentación puesto que, al estar vinculadas, la actualización es automática.
+    
+    Si su uso durante todo el ciclo del proyecto es parte de los objetivos, los beneficios que puede llegar a generar en la planificación de las vías de acceso necesarias para el mantenimiento, en el rastreo y control de los componentes, en remodelaciones y posteriores demoliciones, pueden reflejar un ahorro final significativo en la totalidad de la vida del proyecto desde el punto de vista de la gestión de activos. Cabe destacar que el mayor ahorro de este nuevo proceso se produce en la fase de operación y mantenimiento.}
+\end{itemize}
+
+Por otro lado, el \citeA{bimforum2} indica que:
+
+\begin{quote}
+    ``El mayor beneficio se encuentra cuando este modelo y la riqueza de información que incorpora, es usado en conjunto con aplicaciones de administración de edificios o Facilities Management (FM), sobre todo en proyectos complejos que requieren sistemas de apoyo para su funcionamiento como hospitales o industrias, para administrar las mantenciones y costos asociados a estos equipos."    
+\end{quote}
+
+Asimismo, la metodología BIM, considerada como plataforma de coordinación, puede tener dos efectos en el comportamiento de un contrato \cite{chang2014economic}: 
+
+\begin{itemize}
     \item Digitalizar el diseño en un conjunto de objetos paramétricos 3D podría reducir la incidencia de malas interpretaciones de la información del diseño provenientes de errores humanos durante la transferencia de información. Digitalizar reduce, de manera inherente, la incidencia en las órdenes de cambio, lo que permite que el dueño del proyecto esté menos expuesto a retrasos en los pagos.
     \item El uso de la metodología BIM podría hacer posible que las empresas subcontratistas incorporasen sus inputs en el diseño digital durante una etapa temprana. Además, el uso de BIM facilita la detección de interferencias que podrían resultar en un cambio durante la etapa de construcción. Todo lo anterior también impacta en la reducción de la exposición a cambios indeseados del dueño.
-\end{enumerate}
-
-
-Mainly a test to see if this shit is working properly
+\end{itemize}
