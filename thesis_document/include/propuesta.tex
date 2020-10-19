@@ -1,48 +1,94 @@
 \chapter{Propuesta}
 
-Si bien el fin de este trabajo es postular un modelo que entregue los lineamientos generales para estimar la desviación en los costos de un proyecto de construcción minero basado en el nivel de madurez BIM 
+El fin de este trabajo es postular un modelo capaz de estimar los beneficios económicos asociados al uso del BIM en los proyectos de construcción industriales en CODELCO, en particular, generando una metodología que siente las bases para realizar estimaciones de los sobrecostos de los proyectos de construcción relativos al contexto de CODELCO respecto de su presupuesto inicial.
+
+Sin embargo, esta propuesta también puede extenderse a otros contextos y tomarse como la base para generar estimaciones en cualquier tipo de industria que utilice la metodología BIM en sus proyectos de construcción.
 
 \section{Métrica propuesta}
 
-Si bien el fin de este trabajo es postular un modelo capaz de estimar los beneficios económicos asociados al uso del BIM en los proyectos de construcción minero-industriales en Codelco, el propósito general es que dicho modelo se pueda extender a cualquier tipo de proyecto de construcción, ya sea minero, industrial, de contrucción habitacional, etc.
+Las métricas propuestas por la literatura, en general, giran en torno al uso de contrafactuales, ya sea de comparando con otros proyectos similares que han utilizado la metodología BIM o bien haciendo una comparación con los beneficios teóricos que indica la literatura sobre el uso BIM.
 
-%makes a littel sense though, like there's no real connection here
+En el primer grupo, por ejemplo, se tienen los siguientes estudios que son relevantes para el desarrollo de la propuesta de esta Memoria:
 
-Además, dado el reducido número de proyectos que han adoptado la metología BIM en Codelco, es esencial que el método propuesto desestime el uso de un contrafactual para validarse, puesto que dicho método debe ser capaz de producir un modelo que pueda predecir los beneficios económicos en base al contexto particular de la industria de interés.
+\begin{itemize}
+    \item \citeA{barlish2012measure} proponen un método donde los indicadores propuestos permiten aventurar conclusiones en base a la comparación del nivel que estos alcanzaron en proyectos con BIM versus proyectos sin BIM. Sin embargo, una propuesta como esta tiene la desventaja de necesitar de un contrafactual para validarse.
+    \item \shortciteA{lu2012generic} propone una métrica en la que el indicador es un parámetro derivado de otros indicadores, que son los esfuerzos (medidos en horas-hombre) y la superficie por unidad de trabajo (m$^2$ por piso, por ejemplo). Este método también cuenta con la desventaja de necesitar de un contrafactual para validarse.
+\end{itemize}
 
-En este sentido, un método como el \citeA{barlish2012measure}, donde los indicadores propuestos permiten aventurar conclusiones en base a la comparación del nivel que estos alcanzaron en proyectos con BIM versus proyectos sin BIM, tiene la desventaja de necesitar de un contrafactual para validarse. Por otro lado, un método como el propuesto por \citeA{saldias2010estimacion}, que levanta conclusiones en base a la cantidad de SDIs y órdenes de cambio que pudieron haberse evitado con el uso de la metología BIM, tiene la desventaja de comparar proyectos sin BIM contra el ideal esperado con el uso de BIM, sin tomar en cuenta los puntos intermedios de proyectos que utilizan al menos algún nivel de esta metodología.
+Por otro lado, un ejemplo del segundo grupo es el siguiente estudio:
 
-Por esta razón, este trabajo propone una metodología y una métrica que toman en cuenta las limitacions mencionadas, es decir, desestima el uso de un contrafactual y considera niveles intermedios del uso del BIM, y que, además, utiliza métodos estadísticos para validarlas.
+\begin{itemize}
+    \item \citeA{saldias2010estimacion} proponen un método que permite levantar conclusiones en base a la cantidad de solicitudes de información (SDI) y órdenes de cambio que pudieron haberse evitado con el uso de la metología BIM. Este método tiene la desventaja de comparar proyectos sin BIM contra el ideal esperado con el uso de BIM (madurez óptima), sin tomar en cuenta los puntos intermedios de proyectos que utilizan al menos algún nivel de esta metodología.
+\end{itemize}
 
-La métrica propuesta sigue una línea metodológica similar a la mostrada por \shortciteA{lu2012generic}, donde el indicador es un parámetro derivado otros indicadores, que son los esfuerzos (medidos en HH) y la superficie por unidad de trabajo (m$^2$). 
+
+Así, y en línea con lo planteado como fin de esta Memoria, es esencial que el método propuesto desestime el uso de un contrafactual para validarse, y busque, alternativamente, una manera de producir estimaciones de sobrecostos respecto de variables endógenas que se determinen dentro del modelo y en relación con otras variables internas.
+
+La métrica a proponerse, entonces, debe:
+
+\begin{enumerate}
+    \item Desestimar el uso de un contrafactual y utilización de una variable endógena.
+    \item Incluir cualquier nivel de adopción de la metodología BIM en el proyecto (madurez BIM).
+\end{enumerate}
 
 Así, en vez de construir un modelo en base a indicadores que pueden extraerse de manera directa de los reportes de los proyectos, el modelo propuesto utiliza una métrica que toma en cuenta el nivel de madurez BIM alcanzado (de acuerdo a una escala previamente determinada), el nivel óptimo de madurez y la desviación de los costos de los proyectos.
 
 Asimismo, y dado que se espera que los costos de un proyecto crezcan en relación inversa al nivel de madurez BIM alcanzado por este, es necesario que el indicador se compare con respecto a su nivel de madurez óptimo. Formalmente, esto queda:
 
 \begin{equation}
-    \text{Indicador Madurez} = \frac{\text{Madurez BIM óptima}}{\text{Nivel madurez BIM}}
+    \text{Indicador Madurez} = \frac{\text{Madurez BIM óptima}}{\text{Nivel de madurez BIM del proyecto}}
+    \label{eq:indicador-propuesto}
 \end{equation}
 
 \section{Selección y generación de datos}
 
-\subsection{Criterio de selección}
+El proceso de generación de los datos finales sobres los cuales se realizará el análisis para generar la pripuesta se realiza a través de los procesos que muestran el siguiente diagrama:
 
-Para poder generar un modelo que permita validar el uso del indicador propuesto, la información sobre la cuál se compara dicho parámetro es la desviación de los costos en un proyecto determinado, y, en particular, la desviación en costos que tenga relación directa con la falta de integración de la metodología BIM. En otras palabras, la información relevante es la relativa a todos aquellos factores que devinieron en un aumento de costos y que pudieron evitarse de haberse utilizado e integrado el BIM de manera óptima.
+\tikzstyle{startstop} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=gray!5]
 
-De esta manera, la selección de los datos utilizados para relacionar estas variables y generar un modelo capaz de predecir la desviación en costos basasado en la métrica propuesta tuvo dos fuentes principales de las cuales se extrajo la información: el reporte final de los proyectos con los cambios y tendencias, y el detalle de los contratos de cada proyecto.
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[node distance=2cm]
+        \node (in)  [startstop] {Input};
+        \node (etl) [startstop, right of=in, xshift=2cm] {Tranformación};
+        \node (out) [startstop, right of=etl, xshift=2cm] {Output};
 
-Sin embargo, dado el nivel de detalle de la información contenida, se escogió el reporte con el detalle de los contratos como fuente de extracción de datos. Además, dicho reporte separa el detalle del costo base y el costo final. Esta clasficiación permite generar una estructuta de filtrado de datos que sigue la siguiente selección jerarquizada:
+        \draw [-latex] (in) -- (etl);
+        \draw [-latex] (etl) -- (out);
+    \end{tikzpicture}
+    \caption{Diagrama de generación de la data final.}
+    \label{fig:data-final}
+\end{figure}
+
+\noindent
+Donde,\\
+\textbf{Input:} es la data bruta (\emph{raw data}) sobre la cual se buscará y seleccionará la información relevante.\\
+\textbf{Transformación:} la data ingresada pasa por un proceso de transformación que selecciona sólo la data de interés.\\
+\textbf{Output:} conjunto de datos finales sobre los cuales se realiza el análisis que sirve para proponer el método de estimación del crecimiento de los costos.
+
+\subsection{Criterio de selección de la fuente de la información}
+
+La métrica propuesta \eqref{eq:indicador-propuesto} es la variable independiente del modelo que busca explicar el crecimiento de los costos de un proyecto de construcción en relación a su presupuesto inicial y de acuerdo al nivel de integración BIM (madurez BIM) que haya alcanzado un proyecto. 
+
+Así, para generar un modelo es necesario conocer la información relativa a todos aquellos factores que devinieron en un aumento en los costos incialmente proyectados, y que bien pudieron evitarse de haberse utilizado e integrado el BIM de manera óptima.
+
+De esta manera, la selección de los datos utilizados para relacionar estas variables y generar un modelo capaz de predecir la desviación en costos basasado en la métrica propuesta tiene dos fuentes principales desde las cuales era posible extraer la información interés: la primera es el reporte final de los proyectos con sus respectivos cambios y tendencias; la segunda es el Detalle de los Contratos de los proyectos.
+
+Sin embargo, dado el nivel de detalle de la información contenida en cada una de las fuentes, se escogió el reporte con el Detalle de los Contratos como la base de extracción de datos.
+
+\subsection{Input}
+
+Se fija como \emph{input} la información contenida en el Detalle de los Contratos. Dicho reporte ofrece, adicionalmente, la ventaja de separar el detalle del costo base y el costo final. Esta clasficiación permite generar una estructuta de transformación de datos que ocurre de manera sistemática en orden detallado a continuación:
 
 \begin{enumerate}
-    \item \textbf{Contratos que crecieron:} primero, se seleccionan todos los contratos que experimentan un crecimiento en sus costos respecto del presupueto base.
+    \item \textbf{Crecimiento contratos:} en primer lugar, se selecciona una submuestra que contiene únicamente los contratos que experimentan un crecimiento en sus costos finales respecto del costo base del proyecto.
     
-    \item \textbf{Sólo crecimientos:} luego, se considera sólo la información referida a los crecimientos de los costos de cada contrato, desestimándose la información detallada sobre el costo base de estos.
+    \item \textbf{Crecimiento construcción:} luego, se considera sólo la información referida a los crecimientos de los costos de cada contrato en la fase de construcción.
     
-    \item \textbf{Itemización BIM:} finalmente, se separa la información por ítems relacionados al uso (o falta de uso) de BIM. La itemización BIM se compone de los siguientes ítems: extensión de plazo, obras adicionales, materiales e ingeniería.
+    \item \textbf{Itemización BIM:} finalmente, se separa la información por ítems relacionados al uso (o falta de uso) de la metodología BIM. La itemización BIM se compone de los siguientes ítems: extensión de plazo, obras adicionales, materiales e ingeniería.
 \end{enumerate}
 
-La selección de información asociada a cada uno de los ítems de la itemización BIM puede variar según el proyecto. Sin embargo, para el caso de los proyectos analizados en este estudio, las palabras clave para dicha selección eran coincidentes entre proyectos. Esto dado que quienes crean el reporte son parte de la misma Dirección (Dirección de Contratos) y de la misma compañía (Codelco). 
+La selección de información asociada a cada uno de los ítems de la itemización BIM puede variar según el proyecto. Sin embargo, para el caso de los proyectos analizados en este estudio, las palabras clave para dicha selección eran coincidentes entre proyectos. Esto dado que quienes crean el reporte son parte de la misma Dirección (Dirección de Contratos de la Vicepresidencia de Proyectos) y de la misma compañía (CODELCO).
 
 Se tiene, entonces, que para el filtrado por ítem, las palabras clave fueron:
 
@@ -52,19 +98,46 @@ Se tiene, entonces, que para el filtrado por ítem, las palabras clave fueron:
     \label{tab.keyw}
     \begin{tabular}{ll}
         \toprule
-        \textbf{Ítems} & \textbf{Palabras clave} \\
+        \textbf{Ítems}      & \textbf{Palabras clave} \\
         \midrule
-        Extensión de plazo & Extensión plazo, plazo\\
-        Obras adicionales & Montaje, obras adicionales, rellenos, reemplazos, reparaciones, etc.\\
-        Materiales & Hormigón, piping, cañerías, cables, válvulas, etc. \\
-        Ingeniería & Ingeniería, ingeniería de terreno, etc. \\
+        Extensión de plazo  & Extensión plazo, plazo\\
+        Obras adicionales   & Montaje, obras adicionales, rellenos, reemplazos, reparaciones, etc.\\
+        Materiales          & Hormigón, piping, cañerías, cables, válvulas, etc. \\
+        Ingeniería          & Ingeniería, ingeniería de terreno, etc. \\
         \bottomrule
     \end{tabular}
 \end{table}
 
-Una vez seleccionada toda la información asociada a cada ítem, se calcula el porcentaje que representa cada uno de ellos respecto del presupuesto base y se genera un nuevo set de datos que representa la desviación en costos asociada al uso del BIM por cada uno de los proyectos.
+\subsection{Transformación}
 
-Luego, las desviaciones en costos para los proyectos estudiados en este trabajo se distribuyen de acuerdo a lo mostrado en la siguiente Tabla:
+La transformación ocurre a través de una pieza de \emph{software} desarrollada en Python que obedece a la lógica que se detalla a continuación:
+
+Primero, los datos ingresados son seleccionados de acuerdo a la condición,
+
+\begin{equation}
+    C_{fi} > C_{0i}
+\end{equation}
+
+\noindent
+Donde,\\
+$C_{fi}$: costo final del proyecto $i$.\\
+$C_{0i}$: costo inicial del proyecto $i$.
+
+Para efectos de esclarecimiento, se denomirá este set de datos como $DC_i$. A continuación, desde $DC_i$ se extraen solamente los datos de los contratos asociados a la contrucción del proyecto $i$. Ests subconjunto será denomida como $CC_i$ y cumple con la condición:
+
+\begin{equation}
+    CC_i \subset DC_i
+\end{equation}
+
+Finalemte, desde $CC_i$ se extrean los datos para cada ítem de la itemización BIM, tal que:
+
+\begin{equation}
+    \text{itemización BIM} \in CC_i
+\end{equation}
+
+\subsection{Output}
+
+El \emph{output} del proceso de transformación de la data da como resultado el siguiente desglose en términos porcentuales para cada uno de los proyectos estudiados. Así, las desviaciones en costos para los proyectos estudiados en este trabajo se distribuyen de acuerdo a lo mostrado en la siguiente Tabla:
 
 \begin{table}[H]
     \centering
@@ -72,7 +145,7 @@ Luego, las desviaciones en costos para los proyectos estudiados en este trabajo 
     \caption{Desviaciones en costo de los proyectos estudiados.}
     \begin{tabular}{lccc}
         \toprule 
-        Ítem              & MH      & Molyb   & Planta de Ácido \\
+        Ítem              & Ministro Hales      & Molyb   & Planta de Ácido \\
         \midrule
         Extensión plazo   & 2,0 \%  & 5,4 \%  & -       \\
         Obras adicionales & 19,7 \% & 2,4 \%  & 5,6 \%  \\
@@ -85,7 +158,7 @@ Luego, las desviaciones en costos para los proyectos estudiados en este trabajo 
 
 \subsection{Herramienta de selección y generación de base de datos}
 
-El reporte con el detalle de los contratos es una planilla Excel con miles de datos, por lo que el filtrado a través de este mismo software no es conveniente. Por esta razón, se creó un código en Python para la selección de los datos requeridos a través de una pseudo minería de datos \footnote{Disponible en \url{www.github.com/psotou/contract-data-selection.git} }. Cabe mencionar que si bien el código se creó para trabajar con cualquier reporte de detalle de contratos emitidos por la Vicepresidencia de Proyectos de Codelco, basta con ajustar algunos parámetros para que dicho código pueda usarse con un reporte de similares características de cualquier otra compañía.
+El reporte con el Detalle de los Contratos es una planilla Excel con miles de datos, por lo que el filtrado a través de este mismo software no es conveniente. Por esta razón, se creó un código en Python para la selección de los datos requeridos a través de una pseudo minería de datos \footnote{Disponible en \url{www.github.com/psotou/contract-data-selection.git} }. Cabe mencionar que si bien el código se creó para trabajar con cualquier reporte de detalle de contratos emitidos por la Vicepresidencia de Proyectos de CODELCO basta con ajustar algunos parámetros para que dicho código pueda usarse con un reporte de similares características de cualquier otra compañía.
 
 Así, una vez generado el conjunto de datos asociado a las desviaciones en costos, se procede a estimar los resultados arrojados por la métrica propuesta. Para ello, se consultó la opinión experta de Marcelo Vásquez, quien fue el coordinador BIM de todos los proyectos estudiados. 
 
