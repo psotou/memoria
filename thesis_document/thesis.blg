@@ -4,7 +4,6 @@ The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: include/acknowledgements.aux
 A level-1 auxiliary file: include/resumen.aux
 A level-1 auxiliary file: include/abstract.aux
-A level-1 auxiliary file: include/glossary.aux
 The style file: apacite.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
@@ -25,7 +24,7 @@ Warning--No journal in tabilo2019estudio
 Warning--No journal in trejo2018estudio
 You've used 19 entries,
             6951 wiz_defined-function locations,
-            1359 strings with 13616 characters,
+            1358 strings with 13596 characters,
 and the built_in function-call counts, 30103 in all, are:
 = -- 3808
 > -- 215

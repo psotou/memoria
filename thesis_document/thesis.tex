@@ -20,13 +20,11 @@
 \usepackage{tikz}
 \usepackage{pgfplots}
 \usepackage[flushleft]{threeparttable}
-\usepackage{enumitem}
+\usepackage{listings}
 
 \pgfplotsset{compat=1.16}
 \usetikzlibrary{shapes.geometric, arrows}
 \usetikzlibrary{babel}
-
-\setlist[itemize]{leftmargin=*}
 
 %Include Table of Contents as the first entry in TOC
 \usepackage{sty/xtocinc}
@@ -85,14 +83,13 @@
     \resumening{include/abstract}
 
     % Incluir Abreviaciones
-    \abreviaciones{include/glossary}
+    % \abreviaciones{include/glossary}
 
     \beforepreface
     \afterpreface
 
     %\numberwithin{equation}{chapter}
 
-   
     \input{include/introduccion}
   
     \input{include/definicion}
@@ -113,5 +110,7 @@
 
     \bibliographystyle{apacite}
     \bibliography{bib/papers}
+
+    \input{include/anexos.tex}
 
 \end{document}

@@ -4,42 +4,46 @@
 \BOOKMARK [0][-]{chapter*.4}{\315ndice de Contenidos}{}% 4
 \BOOKMARK [0][-]{chapter*.5}{Lista de Tablas}{}% 5
 \BOOKMARK [0][-]{chapter*.6}{Lista de Figuras}{}% 6
-\BOOKMARK [0][-]{chapter*.7}{Glosario}{}% 7
-\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 8
-\BOOKMARK [1][-]{section.1.1}{Antecedentes Generales}{chapter.1}% 9
-\BOOKMARK [2][-]{subsection.1.1.1}{La Metodolog\355a BIM}{section.1.1}% 10
-\BOOKMARK [2][-]{subsection.1.1.2}{La Construcci\363n en el Sector Minero}{section.1.1}% 11
-\BOOKMARK [2][-]{subsection.1.1.3}{BIM en CODELCO}{section.1.1}% 12
-\BOOKMARK [1][-]{section.1.2}{Motivaci\363n}{chapter.1}% 13
-\BOOKMARK [1][-]{section.1.3}{Objetivos}{chapter.1}% 14
-\BOOKMARK [2][-]{subsection.1.3.1}{Objetivo General}{section.1.3}% 15
-\BOOKMARK [2][-]{subsection.1.3.2}{Objetivos Secundarios}{section.1.3}% 16
-\BOOKMARK [1][-]{section.1.4}{Alcances del Estudio}{chapter.1}% 17
-\BOOKMARK [1][-]{section.1.5}{Metodolog\355a de Trabajo}{chapter.1}% 18
-\BOOKMARK [1][-]{section.1.6}{Estructura de la Memoria}{chapter.1}% 19
-\BOOKMARK [0][-]{chapter.2}{Definici\363n del Problema}{}% 20
-\BOOKMARK [1][-]{section.2.1}{Contexto}{chapter.2}% 21
-\BOOKMARK [2][-]{subsection.2.1.1}{Problema}{section.2.1}% 22
-\BOOKMARK [0][-]{chapter.3}{Marco Te\363rico}{}% 23
-\BOOKMARK [1][-]{section.3.1}{La metodolog\355a BIM}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.1.1}{Dimensiones BIM}{section.3.1}% 25
-\BOOKMARK [2][-]{subsection.3.1.2}{Niveles de informaci\363n BIM}{section.3.1}% 26
-\BOOKMARK [2][-]{subsection.3.1.3}{Madurez BIM}{section.3.1}% 27
-\BOOKMARK [2][-]{subsection.3.1.4}{BIM en Chile}{section.3.1}% 28
-\BOOKMARK [2][-]{subsection.3.1.5}{Ventajas de la metodolog\355a BIM}{section.3.1}% 29
-\BOOKMARK [0][-]{chapter.4}{Propuesta}{}% 30
-\BOOKMARK [1][-]{section.4.1}{M\351trica propuesta}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.2}{Selecci\363n y generaci\363n de datos}{chapter.4}% 32
-\BOOKMARK [2][-]{subsection.4.2.1}{Criterio de selecci\363n de la fuente de la informaci\363n}{section.4.2}% 33
-\BOOKMARK [2][-]{subsection.4.2.2}{Input}{section.4.2}% 34
-\BOOKMARK [2][-]{subsection.4.2.3}{Transformaci\363n}{section.4.2}% 35
-\BOOKMARK [2][-]{subsection.4.2.4}{Output}{section.4.2}% 36
-\BOOKMARK [2][-]{subsection.4.2.5}{Herramienta de selecci\363n y generaci\363n de base de datos}{section.4.2}% 37
-\BOOKMARK [2][-]{subsection.4.2.6}{Evaluaci\363n de madurez BIM de los proyectos}{section.4.2}% 38
-\BOOKMARK [1][-]{section.4.3}{Aplicaci\363n de la m\351trica propuesta}{chapter.4}% 39
-\BOOKMARK [1][-]{section.4.4}{Teor\355a detr\341s del modelo propuesto}{chapter.4}% 40
-\BOOKMARK [1][-]{section.4.5}{Modelo propuesto}{chapter.4}% 41
-\BOOKMARK [2][-]{subsection.4.5.1}{Estimaci\363n del modelo seg\372n la muestra}{section.4.5}% 42
-\BOOKMARK [2][-]{subsection.4.5.2}{An\341lisis de Resultados}{section.4.5}% 43
-\BOOKMARK [0][-]{chapter*.26}{Conclusiones}{}% 44
-\BOOKMARK [0][-]{chapter*.28}{Referencias}{}% 45
+\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 7
+\BOOKMARK [1][-]{section.1.1}{Antecedentes Generales}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.1.1}{La Metodolog\355a BIM}{section.1.1}% 9
+\BOOKMARK [2][-]{subsection.1.1.2}{La Construcci\363n en el Sector Minero}{section.1.1}% 10
+\BOOKMARK [2][-]{subsection.1.1.3}{BIM en CODELCO}{section.1.1}% 11
+\BOOKMARK [1][-]{section.1.2}{Motivaci\363n}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.3}{Objetivos}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.3.1}{Objetivo General}{section.1.3}% 14
+\BOOKMARK [2][-]{subsection.1.3.2}{Objetivos Secundarios}{section.1.3}% 15
+\BOOKMARK [1][-]{section.1.4}{Alcances del Estudio}{chapter.1}% 16
+\BOOKMARK [1][-]{section.1.5}{Metodolog\355a de Trabajo}{chapter.1}% 17
+\BOOKMARK [1][-]{section.1.6}{Estructura de la Memoria}{chapter.1}% 18
+\BOOKMARK [0][-]{chapter.2}{Definici\363n del Problema}{}% 19
+\BOOKMARK [1][-]{section.2.1}{Contexto}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.1.1}{Problema}{section.2.1}% 21
+\BOOKMARK [0][-]{chapter.3}{Marco Te\363rico}{}% 22
+\BOOKMARK [1][-]{section.3.1}{La metodolog\355a BIM}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.1.1}{Dimensiones BIM}{section.3.1}% 24
+\BOOKMARK [2][-]{subsection.3.1.2}{Niveles de informaci\363n BIM}{section.3.1}% 25
+\BOOKMARK [2][-]{subsection.3.1.3}{Madurez BIM}{section.3.1}% 26
+\BOOKMARK [2][-]{subsection.3.1.4}{BIM en Chile}{section.3.1}% 27
+\BOOKMARK [2][-]{subsection.3.1.5}{Ventajas de la metodolog\355a BIM}{section.3.1}% 28
+\BOOKMARK [0][-]{chapter.4}{Propuesta}{}% 29
+\BOOKMARK [1][-]{section.4.1}{M\351trica propuesta}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.2}{Selecci\363n y generaci\363n de datos}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.2.1}{Criterio de selecci\363n de la fuente de la informaci\363n}{section.4.2}% 32
+\BOOKMARK [2][-]{subsection.4.2.2}{Input}{section.4.2}% 33
+\BOOKMARK [2][-]{subsection.4.2.3}{Transformaci\363n}{section.4.2}% 34
+\BOOKMARK [2][-]{subsection.4.2.4}{Output}{section.4.2}% 35
+\BOOKMARK [2][-]{subsection.4.2.5}{Herramienta de selecci\363n y generaci\363n de base de datos}{section.4.2}% 36
+\BOOKMARK [2][-]{subsection.4.2.6}{Evaluaci\363n de madurez BIM de los proyectos}{section.4.2}% 37
+\BOOKMARK [1][-]{section.4.3}{Aplicaci\363n de la m\351trica propuesta}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.4}{Teor\355a detr\341s del modelo propuesto}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.5}{Modelo propuesto}{chapter.4}% 40
+\BOOKMARK [2][-]{subsection.4.5.1}{Estimaci\363n del modelo seg\372n la muestra}{section.4.5}% 41
+\BOOKMARK [2][-]{subsection.4.5.2}{An\341lisis de Resultados}{section.4.5}% 42
+\BOOKMARK [0][-]{chapter*.24}{Conclusiones}{}% 43
+\BOOKMARK [0][-]{chapter*.26}{Referencias}{}% 44
+\BOOKMARK [0][-]{chapter*.27}{Anexos}{}% 45
+\BOOKMARK [1][-]{section.4.6}{Matriz de evaluacion de madurez BIM}{chapter*.27}% 46
+\BOOKMARK [1][-]{section.4.7}{C\363digos de los desarrollos}{chapter*.27}% 47
+\BOOKMARK [2][-]{subsection.4.7.1}{Herramienta de transformaci\363n de la data}{section.4.7}% 48
+\BOOKMARK [2][-]{subsection.4.7.2}{Herramienta de estimaci\363n de los par\341metros}{section.4.7}% 49
