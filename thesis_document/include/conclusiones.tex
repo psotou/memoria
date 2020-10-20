@@ -1,4 +1,50 @@
 \chapter*{Conclusiones}
 \addcontentsline{toc}{chapter}{Conclusiones}
 
+Esta Memoria persigue, principalmente, actuar como un marco de referencia para poder estimar los beneficios económicos asociados al uso de la metodología BIM en un proyecto determinado. En consecuencia, y con el fin de poder actuar de manera independiente para adecuarse la realidad de cualquier proyecto o empresa, el método se puede dividr en las siguientes etapas:
 
+\begin{enumerate}
+    \item Selección y tratamiento de la data.
+    \item Estimación de los parámetros de interés mostrados en la ecuación \eqref{eq:modelo-propuesto}.
+\end{enumerate}
+
+La primera etapa es tal vez la más engorrosa, dado que requiere de:
+
+\begin{enumerate}
+    \item [(a)] Recopilación de toda la información que puediese ser relevante para estimar el crecimiento de los costos en la etapa de construcción.
+    \item [(b)] Elegir algún \emph{software} para el tratamiento de los datos, o bien (como es el caso de esta Memoria), generar un desarrollo interno que permite hacer la selección de la información a usarse aplicando las condiciones de transformación de la data.
+\end{enumerate}
+
+Por otro, la segunda etapa depende exclusivamente del \emph{software} o el desarrollo generado. Aquí la única dificultad que se podría experimentar es trabajar con un set de datos masivo que pueda disminuir el tiempo de procesamiento para estimar los parámetros de interés.
+
+Una condición importante para el éxito del modelo es definir una métrica que relacione el crecimiento de los costos con el nivel de integración o madurez BIM alcanzada por el o los proyectos estudiados. Como la relación entre madurez BIM y crecimiento de los costos de construcción es inversamente proporcianal, la métrica propuesta es la siguiente:
+
+\begin{equation*}
+    \text{Indicador Madurez} = \frac{\text{Madurez BIM óptima}}{\text{Nivel de madurez BIM del proyecto}}
+\end{equation*}
+
+Este indicador tiene la ventaja de que funciona con cualquier \emph{rating} o evaluación de madurez BIM, ya sea una desarrollada de manera interna por alguna empresa, o bien usar alguna de las formas de evaluación que propone la literatura. Esta Memoria utiliza la matriz de evaluación de madurez propuesta por \citeA{succar2010building}.
+
+Adicionalmente, esta Memoria ha dispuesto de manera libre el código de fuente de los desarrollos tanto para la transformación de la data como para la estimación de los parámetros de interés. Dicha información se encuentra alojada en los siguientes repositorios: \url{https://github.com/psotou/contract-data-selection.git} (código para la transformación de la data) y \url{https://github.com/psotou/stats_model.git} (para la estimación de los parámetros).
+
+Finalmente, y a pesar de lo acotada de la muestra con la que se contaba para este trabajo de Memoria, el modelo propuesto arrojó los siguientes resultados en términos de la ecuación propuesta \eqref{eq:modelo-propuesto} y sus parámetros de interés:
+
+\begin{equation*}
+    \hat{y_i} = -0,0746 + 0,1083\cdot \left( \frac{4}{m_i} \right)
+\end{equation*}
+
+Con unos estadísticos que permiten sostener la hipótesis alternativa en que la madurez BIM efectivamente tiene un efecto inversamente proporcional en el crecimiento de los costos de construcción de un proyecto. Los estadísticos son:
+
+\begin{table}[H]
+    \centering
+    \caption{Estadísticas asociadas al coeficiente de madurez BIM $\hat{\theta_1} = 0,1083$.}
+    \begin{tabular}{lccc}
+        \toprule
+        Coeficiente & error estándar & $p$-value & $R^2$\\
+        \midrule
+        0,1083      & 0,022          & 0,015     & 0,893\\  
+        \bottomrule        
+    \end{tabular}
+\end{table}
+
+Con lo que puede concluirse que, para la realidad de los proyectos analizados para CODELCO, el modelo podría usarse como una referencia para tener presente el nivel de crecimiento que podrían experimentar los costos de construcción de sus proyectos.

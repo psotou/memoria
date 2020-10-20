@@ -50,7 +50,7 @@ El proceso de generación de los datos finales sobres los cuales se realizará e
     \centering
     \begin{tikzpicture}[node distance=2cm]
         \node (in)  [startstop] {Input};
-        \node (etl) [startstop, right of=in, xshift=2cm] {Tranformación};
+        \node (etl) [startstop, right of=in, xshift=2cm] {Transformación};
         \node (out) [startstop, right of=etl, xshift=2cm] {Output};
 
         \draw [-latex] (in) -- (etl);
@@ -61,10 +61,16 @@ El proceso de generación de los datos finales sobres los cuales se realizará e
 \end{figure}
 
 \noindent
-Donde,\\
-\textbf{Input:} es la data bruta (\emph{raw data}) sobre la cual se buscará y seleccionará la información relevante.\\
-\textbf{Transformación:} la data ingresada pasa por un proceso de transformación que selecciona sólo la data de interés.\\
-\textbf{Output:} conjunto de datos finales sobre los cuales se realiza el análisis que sirve para proponer el método de estimación del crecimiento de los costos.
+Donde,
+
+\begin{table}[H]
+    \begin{tabular}{l p{0.754\linewidth}}
+        \textbf{Input:}          & es la data bruta (\emph{raw data}) sobre la cual se buscará y seleccionará la información relevante.\\
+        \textbf{Transformación:} & la data ingresada pasa por un proceso de transformación que selecciona sólo la data de interés.\\
+        \textbf{Output:}         & conjunto de datos finales sobre los cuales se realiza el análisis que sirve para proponer el método de estimación del crecimiento de los costos.
+    \end{tabular}
+\end{table}
+
 
 \subsection{Criterio de selección de la fuente de la información}
 
@@ -145,13 +151,14 @@ El \emph{output} del proceso de transformación de la data da como resultado el 
     \caption{Desviaciones en costo de los proyectos estudiados.}
     \begin{tabular}{lccc}
         \toprule 
-        Ítem              & Ministro Hales & Moly corporativo & Planta de Ácido \\
+        Ítem              & Ministro Hales   & Moly corporativo & Planta de Ácido \\
         \midrule
-        Extensión plazo   & 2,0 \%         & 5,4 \%           & -       \\
-        Obras adicionales & 19,7 \%        & 2,4 \%           & 5,6 \%  \\
-        Materiales        & 3,2 \%         & 8,1 \%           & 5,9\%   \\       
-        Ingeniería        & 0,08 \%        & 0,12 \%          & 0,3 \%  \\
-        \textbf{Total}    & 24,9 \%        & 16,2 \%          & 11,8 \% \\
+        Extensión plazo   & 2,0 \%           & 5,4 \%           & -       \\
+        Obras adicionales & 19,7 \%          & 2,4 \%           & 5,6 \%  \\
+        Materiales        & 3,2 \%           & 8,1 \%           & 5,9\%   \\       
+        Ingeniería        & 0,08 \%          & 0,12 \%          & 0,3 \%  \\
+        \hline
+        \textbf{Total}    & \textbf{24,9} \% & \textbf{16,2} \% & \textbf{11,8} \% \\
         \bottomrule
     \end{tabular}
 \end{table}
@@ -171,7 +178,7 @@ Marcelo utilizó la metodología desarrollada por \citeA{succar2010building} y u
 
 \begin{table}[H]
     \centering
-    \caption{Nivel de madurez BIM de cada proyecto según \emph{rating}.}
+    \caption{Nivel de madurez BIM de cada proyecto según \emph{rating} evaluado por especialista.}
     \label{tab:evaluacionmadurez}
     \begin{tabular}{lc}
         \toprule 
@@ -184,7 +191,7 @@ Marcelo utilizó la metodología desarrollada por \citeA{succar2010building} y u
     \end{tabular}
 \end{table}
 
-\subsection{Aplicación de la métrica propuesta}
+\section{Aplicación de la métrica propuesta}
 
 Al tranformar los datos de la Tabla \ref{tab:evaluacionmadurez} de acuerdo a la métrica propuesta \eqref{eq:indicador-propuesto}, el conjunto de datos sobre los que se levanta la propuesta de este estudio queda como se muestra a continuación:
 
@@ -328,11 +335,12 @@ Por lo anterior, la hipótesis sobre la que se basa esta propuesta es que la des
     x_{ik} = \frac{m}{m_i}
 \end{equation}
 
-Donde $m$ es el óptimo de madurez BIM, y $m_i$ es el nivel de madurez BIM alcanzado por el proyecto $i$. Aquí, $m$ no es otra cosa que la métrica propuesta en \eqref{eq:indicador-propuesto}.
+Donde $m$ es el óptimo de madurez BIM, y $m_i$ es el nivel de madurez BIM alcanzado por el proyecto $i$. Aquí, $x_{ik}$ no es otra cosa que la métrica propuesta en \eqref{eq:indicador-propuesto}.
 
 Con esto, la ecuación \eqref{eq.desv-gen} queda:
 
 \begin{equation}
+    \label{eq:modelo-propuesto}
     y_i = \theta_0 + \sum\limits_{i=1}^n \theta_i \left(\frac{m}{m_i} \right)
 \end{equation}
 
@@ -394,7 +402,7 @@ Con lo que la relación entre desviación y madurez se modela como sigue:
 
 \begin{equation}
     \label{eq.modelo-prop-todos}
-    y_i = -0,0746 + 0,1083\cdot \left( \frac{4}{m_i} \right)
+    \hat{y_i} = -0,0746 + 0,1083\cdot \left( \frac{4}{m_i} \right)
 \end{equation}
 
 Cuyo efecto marginal sobre la desviación esperada de los costos es $0,1083$ según se estima a través de la ecuación \eqref{eq.efec_marginal}. Es decir, por cada una unidad de madurez BIM se espera una reducción en la desviación esperada de aproximadamente un $10,83\%$.
@@ -427,7 +435,7 @@ El gráfico asociado a la ecuación \eqref{eq.modelo-prop-todos} es:
     \caption{Predicción de la desviación en costos en base a la muestra total.}
 \end{figure}
 
-Y las estadísticas asociadas al coeficiente que acompaña al indicador de madurez BIM se muestran en la siguiente Tabla:
+Y las estadísticas asociadas al coeficiente que acompaña al indicador de madurez BIM (las cuales se generan a través de la pieza de \emph{software} desarrollada) se muestran en la siguiente Tabla:
 
 \begin{table}[H]
     \centering
@@ -441,42 +449,6 @@ Y las estadísticas asociadas al coeficiente que acompaña al indicador de madur
         \bottomrule        
     \end{tabular}
 \end{table}
-
-% Si se comparan las curvas generadas a partir tanto de la submuestra como de la muestra total, se puede apreciar un desplazamiento en favor de la curva generada por el modelo derivado de la muestra total (pues se acerca más a las condiciones de borde que indica la teoría).
-
-% \begin{figure}[H]
-%     \centering
-%     \begin{tikzpicture}
-%         \begin{axis}[
-%             axis lines = left,
-%             title = {\textbf{Relación desviación de costos y madurez BIM}},
-%             ymin = 0, ymax = 0.4,
-%             xmin = 1, xmax = 4.5,
-%             xtick = {1, 2, 3, 4},
-%             ymajorgrids = true,
-%             grid style = dashed,
-%             ylabel = Desviación en costos,
-%             xlabel = Nivel de madurez BIM,
-%             legend style = {font=\scriptsize},
-%         ]
-%         \addplot [
-%             samples = 100,
-%             color = red,
-%         ]
-%         {-0.0532+0.104*4/x};
-%         \addlegendentry{$y_i = -0.0532 + 0.104 \cdot \left( 4\cdot m_i^{-1} \right)$}
-%         %second plot
-%         \addplot [
-%             samples = 100,
-%             color = blue,
-%         ]
-%         {-0.0667+0.1047*4/x};
-%         \addlegendentry{$y_i = -0.0667 + 0.1047\cdot \left( 4 \cdot m_i^{-1} \right)$}
-%         \end{axis}
-%     \end{tikzpicture}
-%     \caption{Diferencia de predicciones entre el modelo propuesto en base a la submuestra homogénea (línea roja) y a la muestra total (línea azul).}
-% \end{figure}
-
 
 %------------RESULTS ANALYSIS----------------
 \subsection{Análisis de Resultados}
