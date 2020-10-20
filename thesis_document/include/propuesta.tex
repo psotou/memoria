@@ -22,12 +22,12 @@ Por otro lado, un ejemplo del segundo grupo es el siguiente estudio:
 \end{itemize}
 
 
-Así, y en línea con lo planteado como fin de esta Memoria, es esencial que el método propuesto desestime el uso de un contrafactual para validarse, y busque, alternativamente, una manera de producir estimaciones de sobrecostos respecto de variables endógenas que se determinen dentro del modelo y en relación con otras variables internas.
+Así, y en línea con lo planteado como fin de esta Memoria, es esencial que el método propuesto desestime el uso de un contrafactual para validarse, y busque, alternativamente, una manera de producir estimaciones de sobrecostos respecto de variables exógenas que se determinen dentro del modelo y en relación con otras variables internas.
 
 La métrica a proponerse, entonces, debe:
 
 \begin{enumerate}
-    \item Desestimar el uso de un contrafactual y utilización de una variable endógena.
+    \item Desestimar el uso de un contrafactual y utilización de una variable exógena.
     \item Incluir cualquier nivel de adopción de la metodología BIM en el proyecto (madurez BIM).
 \end{enumerate}
 
@@ -145,64 +145,71 @@ El \emph{output} del proceso de transformación de la data da como resultado el 
     \caption{Desviaciones en costo de los proyectos estudiados.}
     \begin{tabular}{lccc}
         \toprule 
-        Ítem              & Ministro Hales      & Molyb   & Planta de Ácido \\
+        Ítem              & Ministro Hales & Moly corporativo & Planta de Ácido \\
         \midrule
-        Extensión plazo   & 2,0 \%  & 5,4 \%  & -       \\
-        Obras adicionales & 19,7 \% & 2,4 \%  & 5,6 \%  \\
-        Materiales        & 3,2 \%  & 8,1 \%  & 5,9\%   \\       
-        Ingeniería        & 0,08 \% & 0,12 \% & 0,3 \%  \\
-        \textbf{Total}    & 25,0 \% & 16,2 \% & 11,8 \% \\
+        Extensión plazo   & 2,0 \%         & 5,4 \%           & -       \\
+        Obras adicionales & 19,7 \%        & 2,4 \%           & 5,6 \%  \\
+        Materiales        & 3,2 \%         & 8,1 \%           & 5,9\%   \\       
+        Ingeniería        & 0,08 \%        & 0,12 \%          & 0,3 \%  \\
+        \textbf{Total}    & 24,9 \%        & 16,2 \%          & 11,8 \% \\
         \bottomrule
     \end{tabular}
 \end{table}
 
 \subsection{Herramienta de selección y generación de base de datos}
 
-El reporte con el Detalle de los Contratos es una planilla Excel con miles de datos, por lo que el filtrado a través de este mismo software no es conveniente. Por esta razón, se creó un código en Python para la selección de los datos requeridos a través de una pseudo minería de datos \footnote{Disponible en \url{www.github.com/psotou/contract-data-selection.git} }. Cabe mencionar que si bien el código se creó para trabajar con cualquier reporte de detalle de contratos emitidos por la Vicepresidencia de Proyectos de CODELCO basta con ajustar algunos parámetros para que dicho código pueda usarse con un reporte de similares características de cualquier otra compañía.
+El reporte con el Detalle de los Contratos es una planilla Excel con varios miles de datos, por lo que el filtrado a través de Excel es poco conveniente y susceptible a errores. Por esta razón, se desarrolló un código en Python capaz de seleccionar y transformar los datos requeridos a través de una pseudo minería de datos. Dicho código está disponible en el siguiente repositorio GitHub \url{www.github.com/psotou/contract-data-selection.git}
 
-Así, una vez generado el conjunto de datos asociado a las desviaciones en costos, se procede a estimar los resultados arrojados por la métrica propuesta. Para ello, se consultó la opinión experta de Marcelo Vásquez, quien fue el coordinador BIM de todos los proyectos estudiados. 
+Cabe mencionar que si bien el código se creó para trabajar con cualquier reporte de Detalle de Contratos emitidos por la Vicepresidencia de Proyectos de CODELCO, basta con ajustar algunos parámetros para que dicho código pueda usarse con un reporte de similares características de cualquier otra empresa o institución.
 
-Ha de mencionarse que la madurez BIM se puede medir usando la métrica o metodología que más convenga, sin embargo, en este estudio se decidió por el uso de la matriz de madurez propuesta por Succar \cite{succar2010building}. Dicha matriz entrega un rating que va del 1 al 4, siendo 4 el óptimo de madurez. Bajo este contexto, la evaluación de Marcelo Vásquez para los proyectos fue la siguiente:
+
+\subsection{Evaluación de madurez BIM de los proyectos}
+
+La evaluación del nivel de madurez BIM alcanzado por cada uno de los proyectos estudiados realizada por Marcelo Vásquez, quien fue la persona encargada de la coordinación BIM de todos estos proyectos en CODELCO.
+
+Marcelo utilizó la metodología desarrollada por \citeA{succar2010building} y utilizó la matriz de madurez que el autor propone para entregar el \emph{rating} asociado a cada proyecto según los niveles establecidos en la Tabla \ref{tab:niveles-madurez-codelco}. Bajo este contexto, la evaluación de Marcelo Vásquez para los proyectos fue la siguiente:
 
 \begin{table}[H]
     \centering
-    \label{tab.datos_mad_bim}
-    \caption{Nivel de madurez BIM de cada proyecto.}
+    \caption{Nivel de madurez BIM de cada proyecto según \emph{rating}.}
+    \label{tab:evaluacionmadurez}
     \begin{tabular}{lc}
         \toprule 
         \textbf{Proyecto} & \textbf{Nivel de madurez BIM} \\
         \midrule
-        Ministro Hales & 1,7 \\
-        Moly corporativo & 2,2 \\
-        Planta de ácido &  1,8 \\
+        Ministro Hales   & 1,7 \\
+        Moly corporativo & 1,8 \\
+        Planta de ácido  & 2,2 \\
         \bottomrule
     \end{tabular}
 \end{table}
 
-Aplicando la transformación propuesta como indicador (a la que en adelante se referirá como madurez por simplicidad), el conjunto de datos sobre los que se levanta la propuesta de este estudio queda como sigue:
+\subsection{Aplicación de la métrica propuesta}
+
+Al tranformar los datos de la Tabla \ref{tab:evaluacionmadurez} de acuerdo a la métrica propuesta \eqref{eq:indicador-propuesto}, el conjunto de datos sobre los que se levanta la propuesta de este estudio queda como se muestra a continuación:
 
 \begin{table}[H]
     \centering
-    \label{tab.datos_mad_bim_desv}
-    \caption{Base de datos desviación de costos (crecimientos) e indicador madurez.}
-    \begin{tabular}{lcc}
+    \caption{Base final que muestra el crecimiento de los costos junto a su respectivo indicador madurez (métrica propuesta).}
+    \label{tab:datosfinales}
+    \begin{tabular}{lccc}
         \toprule 
-        \textbf{Proyecto}  & \textbf{Desviación} & \textbf{Madurez} \\
+        \textbf{Proyecto}  & \textbf{Desviación} & \textbf{Nivel de madurez} & \textbf{Indicador madurez} \\
         \midrule
-        Ministro Hales     & 25,0 \%             & 2,35 \\
-        Moly corporativo   & 16,2 \%             & 1,82 \\
-        Planta de ácido    & 11,8 \%             & 2,22 \\
+        Ministro Hales     & 24,9 \%             & 1,7                       & 2,35 \\
+        Moly corporativo   & 16,2 \%             & 1,8                       & 1,82 \\
+        Planta de ácido    & 11,8 \%             & 2,2                       & 2,22 \\
         \bottomrule
     \end{tabular}
 \end{table}
 
 
-En base a esta información se construye el modelo que permite predecir la desviación en costos de un proyecto de acuerdo a su nivel de madurez BIM.
+En base a la información de la Tabla \ref{tab:datosfinales} se construye la propuesta de un modelo que permite realizar estimaciones del crecimiento de los costos de un proyecto de acuerdo a su nivel de madurez BIM alcanzado.
 
 %-----------------------------MODELO TEÓRICO----------------------
-\section{Teoría del modelo propuesto}
+\section{Teoría detrás del modelo propuesto}
 
-En términos generales, la relación entre desviación en costos de un proyecto $i$ y los factores que la motivan se puede expresar de la siguiente manera:
+En términos generales, la relación entre el crecimiento de los costos de un proyecto $i$ y los factores que lo motivan se puede expresar de la siguiente manera:
 
 \begin{equation}
     \label{eq.desv-gen}
@@ -216,19 +223,24 @@ O bien, de manera vectorial:
     y_i = \bm{x}^T_i\bm{\theta}
 \end{equation}
 
-Donde tanto $y_i$ como $\bm{x}_i$ son variables observadas. Se asumirá que $\varepsilon_i$ (término de error o de perturbación no observado) es absorbido por la constante $\theta_0$. Aquí, $\bm{x}^T$ es un vector fila cuyos elementos son los indicadores de madurez propuestos $(1,~x_1,~x_2,\ldots,~x_n)$, y $\bm{\theta}$ es un vector columna con $(\theta_0,~\theta_1,~\theta_2,\ldots,~\theta_n)^T$  paramámetros desconocidos que son los que se desea estimar para generar un modelo capaz de explicar la influencia de factores tales como el uso de alguna nueva metodología (que es el caso de este estudio), clima, paralizaciones, etc, en la desviación de los costos de un proyecto y, adicionalmente, predecir este resultado.
+Donde tanto $y_i$ como $\bm{x}_i$ son variables observadas. Se asumirá que $\varepsilon_i$ (término de error o de perturbación no observado) es absorbido por la constante $\theta_0$. Aquí, $\bm{x}^T$ es un vector fila cuyos elementos son los indicadores de madurez propuestos $(1,~x_1,~x_2,\ldots,~x_n)$, y $\bm{\theta}$ es un vector columna con $(\theta_0,~\theta_1,~\theta_2,\ldots,~\theta_n)^T$  paramámetros desconocidos que son los que se desea estimar con el fin de poder generar un modelo que sirva como base para explicar la influencia de factores tales como el uso de alguna nueva metodología (que es el caso de este estudio), en el crecimiento de los costos de un proyecto.
 
-En este trabajo, $y_i$ representa las desviaciones en costos para el proyecto $i$, y $\bm{x}_i$ es el indicador de madurez propuesto.
+Para efectos de esta Memoria, $y_i$ representa los crecimientos de los costos de cosntrucción para el proyecto $i$, y $\bm{x}_i$ representa la métrica propuesta como indicador de madurez en la \eqref{eq:indicador-propuesto}.
 
 
-Además, la ecuación \eqref{eq.desv-vec} se puede escribir usando notación matricial:
+Adicionalmente, la ecuación \eqref{eq.desv-vec} se puede escribir usando notación matricial:
 
 \begin{equation}
     \label{eq.matrix}
     \bm{y} = X\bm{\theta} + \varepsilon
 \end{equation}
 
-Donde $\bm{y}$ y $\varepsilon$ son vectores de dimensiones $(N\times1)$, $X$ es una matriz de dimensión $(N\times K)$ y $\bm{\theta}$ un vector de dimensión $(K\times1)$.
+Donde $\bm{y}$ y $\varepsilon$ son vectores de dimensiones $(N\times1)$, $X$ es una matriz de dimensión $(N\times K)$ y $\bm{\theta}$ un vector de dimensión $(K\times1)$. Esta será la forma que se utlizará para hace el ingreso de la data a la pieza de \emph{software} desarrollada. Aquí también se considera el supuesto en que el vecto de errores $\varepsilon$ es absorbido por el vector $\bm{\theta}$, de manera que la ecuación sobre la que se trabajará queda de la siguiente manera:
+
+\begin{equation}
+    \label{eq:matricial-final}
+    \bm{y} = X\bm{\theta}
+\end{equation}
 
 Antes de comenzar con la estimación de los parámetros de interés $\bm{\theta}$, se deben levantar algunos supuestos para darle significado al modelo de manera que este no carezca de sentido estadístico. En primer lugar, se asume que las variables explicativas $\bm{x}_i$ son exógenas, lo que implica que $\bm{E}[y_i|\bm{x}_i]=0$. Bajo este supuesto, se sostiene que :
 
@@ -264,7 +276,11 @@ La muestra sobre la cual se funda este estudio consiste de un conjunto muy reduc
     & \label{eq.s4} \text{cov}[\varepsilon_i,~\varepsilon_j] = 0,\quad i\neq j
 \end{align}
 
-El supuesto \eqref{eq.s1} indica que el valor esperado del término de error es cero, esto significa que, en promedio, la curva de regresión debería estar correcta. El supuesto \eqref{eq.s3} indica que todos los términos de error poseen la misma varianza, esto se conoce como homoceasticidad, mientras que supuesto \eqref{eq.s4} impone cero correlación entre los términos de error, excluyende así cualquier forma de autocorrelación. Usando la notación matricial, estos tres supuesto se pueden reescribir de la siguiente forma:
+El supuesto \eqref{eq.s1} indica que el valor esperado del término de error es cero, esto significa que, en promedio, la curva de regresión debería estar correcta. 
+
+El supuesto \eqref{eq.s3} indica que todos los términos de error poseen la misma varianza, esto se conoce como homoceasticidad.
+
+El supuesto \eqref{eq.s4} impone cero correlación entre los términos de error, excluyende así cualquier forma de autocorrelación. Usando la notación matricial, estos tres supuesto se pueden reescribir de la siguiente forma:
 
 \begin{equation}
     \bm{E}[\varepsilon]=0\quad\text{y}\quad\bm{V}[\varepsilon]=\sigma^2I_N
@@ -284,6 +300,7 @@ El supuesto \eqref{eq.s2} indica que $X$ e $\varepsilon$ son independientes. Est
 Es decir, la matriz de regresores $X$ no provee ninguna información sobre los valores esperados de los términos de error o sus (co)varianzas. 
 
 Una propiedad muy relevante del estimador de mínimos cuadrados es que se trata de un \textbf{estimador insesgado}. Esto quiere decir que, en promedio, se espera que los valores del estimador $\bm{\hat\theta}$ sean iguales a los valores verdaderos de $\bm{\theta}$ \cite{verbeek}. Formalmente, esto es:
+
 
 \begin{equation}
     \bm{E}[\hat{\bm{\theta}}] = \bm{\theta}
@@ -311,7 +328,7 @@ Por lo anterior, la hipótesis sobre la que se basa esta propuesta es que la des
     x_{ik} = \frac{m}{m_i}
 \end{equation}
 
-Donde $m$ es el óptimo de madurez BIM, y $m_i$ es el nivel de madurez BIM alcanzado por el proyecto $i$. 
+Donde $m$ es el óptimo de madurez BIM, y $m_i$ es el nivel de madurez BIM alcanzado por el proyecto $i$. Aquí, $m$ no es otra cosa que la métrica propuesta en \eqref{eq:indicador-propuesto}.
 
 Con esto, la ecuación \eqref{eq.desv-gen} queda:
 
@@ -319,7 +336,7 @@ Con esto, la ecuación \eqref{eq.desv-gen} queda:
     y_i = \theta_0 + \sum\limits_{i=1}^n \theta_i \left(\frac{m}{m_i} \right)
 \end{equation}
 
-Además, la desviación en los costos de un proyecto está sujeta las siguientes condiciones de borde de acuerdo a la NBS \cite{nbs}:
+Además, la desviación en los costos de un proyecto está sujeta las siguientes condiciones de borde de acuerdo a la NBS-UK \cite{nbs}:
 
 \begin{equation}
     y_i = 
@@ -329,102 +346,14 @@ Además, la desviación en los costos de un proyecto está sujeta las siguientes
     \end{cases}
 \end{equation}
 
-La muestra de la que se disponía y sobre la que se trabajó, consistía de tres proyectos minero-industriales, dos de estos proyectos de construcción greenfield mientras que el otro, un proyecto de overhauling. Por esta razón, se realiza un análisis para la submuestra de elementos homogéneos y otro para el total de la muestra.
+Esto valores son referenciales dado que consideran una integración óptima (máxima madurez BIM posible) de la metodología BIM.
 
-%--------------------SUBMUESTRA HOMOGÉNEA-------------------------------
-\subsection{Submuestra homogénea}
 
-Este análisis considera la submuestra de los proyectos greenfield, que además compartían la construcción del mismo número de plantas de procesamiente, aunque para minerales distintos. Los datos de desviación de costos, madurez BIM y condiciones de borde son los siguientes:
+\subsection{Estimación del modelo según la muestra}
 
-\begin{minipage}{.45\linewidth}
-    \begin{equation*}
-    Y = 
-        \begin{bmatrix}
-            0,330 \\
-            0,249 \\
-            0,161 \\
-            0,001 
-        \end{bmatrix}
-    \end{equation*}
-\end{minipage}
-\begin{minipage}{.45\linewidth}
-    \begin{equation*}
-    X = 
-        \begin{bmatrix}
-            1 & & 4,000 \\
-            1 & & 2,353 \\
-            1 & & 1,818 \\
-            1 & & 1,000
-        \end{bmatrix}
-    \end{equation*}
-\end{minipage}
+La muestra de la que se disponía y sobre la que se trabajó consistía de tres proyectos minero-industriales, dos de estos proyectos de construcción \emph{greenfield} mientras que el otro, un proyecto \emph{brownfield} (Planta de ácido) de \emph{overhauling}.
 
-Esto genera el estimador:
-
-\begin{equation}
-    \hat{\bm{\theta}} = 
-        \begin{bmatrix}
-            -0,0532 \\
-            ~~~0,1040
-        \end{bmatrix}
-\end{equation}
-
-Este resultado genera la siguiente relación:
-
-\begin{equation}
-    \label{eq.modelo-prop-submuestra}
-    y_i = -0,0532 + 0,104\cdot \left( \frac{4}{m_i} \right)
-\end{equation}
-
-Cuyo efecto marginal sobre la desviación esperada de los costos es $0,104$. Es decir, por cada una unidad de madurez BIM se espera una reducción en la desviación esperada de aproximadamente un $10,4\%$.
-
-La escala con la que se mide madurez BIM para este estudio toma valores que van desde el 1 al 4, con un error asociado de $\pm 0,05$. Tomando en cuenta este rating, se genera un gráfico con la predicción de la desviaciones en costos en base al nivel de madurez.
-
-\begin{figure}[H]
-    \centering
-    \begin{tikzpicture}
-        \begin{axis}[
-            axis lines = left,
-            title = {\textbf{Relación desviación de costos y madurez BIM}},
-            ymin = 0, ymax = 0.4,
-            xmin = 1, xmax = 4.5,
-            xtick = {1, 2, 3, 4},
-            ymajorgrids = true,
-            grid style = dashed,
-            ylabel = Desviación en costos,
-            xlabel = Nivel de madurez BIM,
-            legend style = {font=\scriptsize},
-         ]
-        \addplot [
-            samples = 100,
-            color = purple,
-         ]
-         {-0.0532+0.104*4/x};
-         \addlegendentry{$y_i = -0.0532 + 0.104 \cdot \left( 4\cdot m_i^{-1} \right)$}
-        \end{axis}
-    \end{tikzpicture}
-    \caption{Predicción de la desviación en costos en base a la submuestra homogénea.}
-\end{figure}
-
-Las estadísticas asociadas al coeficiente que acompaña la relación de madurez BIM se muestran en la siguiente Tabla:
-
-\begin{table}[H]
-    \centering
-    \label{tab.est}
-    \caption{Estadísticas asociadas al coeficiente de madurez BIM $\theta_1$.}
-    \begin{tabular}{lccc}
-        \toprule
-        Coeficiente & error estándar & $p$-value & $R^2$\\
-        \midrule
-        0,104 & 0,028 & 0,065 & 0,87\\  
-        \bottomrule        
-    \end{tabular}
-\end{table}
-
-%---------------------MUESTRA TOTAL--------------------------
-\subsection{Muestra Total}
-
-Ahora, ingresando los datos de desviación y madurez de toda la muestra, se generan las siguientes matrices:
+Ahora, ingresando los datos de los crecimientos de los costos y el indicador de madurez estimado según \eqref{eq:indicador-propuesto} de toda la muestra, se generan las siguientes matrices:
 
 \begin{minipage}{.45\linewidth}
     \begin{equation*}
@@ -456,8 +385,8 @@ Lo que produce el siguiente estimador:
 \begin{equation}
     \hat{\bm{\theta}} = 
         \begin{bmatrix}
-            -0,0667 \\
-            ~~~0,1047
+            -0,0746 \\
+            ~~~0,1083
         \end{bmatrix}
 \end{equation}
 
@@ -465,10 +394,10 @@ Con lo que la relación entre desviación y madurez se modela como sigue:
 
 \begin{equation}
     \label{eq.modelo-prop-todos}
-    y_i = -0,0667 + 0,1047\cdot \left( \frac{4}{m_i} \right)
+    y_i = -0,0746 + 0,1083\cdot \left( \frac{4}{m_i} \right)
 \end{equation}
 
-Cuyo efecto marginal sobre la desviación esperada de los costos es $0,1047$. Es decir, por cada una unidad de madurez BIM se espera una reducción en la desviación esperada de aproximadamente un $10,5\%$.
+Cuyo efecto marginal sobre la desviación esperada de los costos es $0,1083$ según se estima a través de la ecuación \eqref{eq.efec_marginal}. Es decir, por cada una unidad de madurez BIM se espera una reducción en la desviación esperada de aproximadamente un $10,83\%$.
 
 El gráfico asociado a la ecuación \eqref{eq.modelo-prop-todos} es:
 
@@ -491,14 +420,14 @@ El gráfico asociado a la ecuación \eqref{eq.modelo-prop-todos} es:
             samples = 100,
             color = purple,
          ]
-         {-0.0667+0.1047*4/x};
-         \addlegendentry{$y_i = -0.0667 + 0.1047\cdot \left( 4 \cdot m_i^{-1} \right)$}
+         {-0.0746 + 0.1083 * 4 / x};
+         \addlegendentry{$y_i = -0.0746 + 0.1083\cdot \left( 4 \cdot m_i^{-1} \right)$}
         \end{axis}
     \end{tikzpicture}
     \caption{Predicción de la desviación en costos en base a la muestra total.}
 \end{figure}
 
-Y las estadísticas asociadas al coeficiente que acompaña la relación de madurez BIM se muestran en la siguiente Tabla:
+Y las estadísticas asociadas al coeficiente que acompaña al indicador de madurez BIM se muestran en la siguiente Tabla:
 
 \begin{table}[H]
     \centering
@@ -508,68 +437,68 @@ Y las estadísticas asociadas al coeficiente que acompaña la relación de madur
         \toprule
         Coeficiente & error estándar & $p$-value & $R^2$\\
         \midrule
-        0,1047 & 0,027 & 0,03 & 0,83\\  
+        0,1083      & 0,022          & 0,015     & 0,893\\  
         \bottomrule        
     \end{tabular}
 \end{table}
 
-Si se comparan las curvas generadas a partir tanto de la submuestra como de la muestra total, se puede apreciar un desplazamiento en favor de la curva generada por el modelo derivado de la muestra total (pues se acerca más a las condiciones de borde que indica la teoría).
+% Si se comparan las curvas generadas a partir tanto de la submuestra como de la muestra total, se puede apreciar un desplazamiento en favor de la curva generada por el modelo derivado de la muestra total (pues se acerca más a las condiciones de borde que indica la teoría).
 
-\begin{figure}[H]
-    \centering
-    \begin{tikzpicture}
-        \begin{axis}[
-            axis lines = left,
-            title = {\textbf{Relación desviación de costos y madurez BIM}},
-            ymin = 0, ymax = 0.4,
-            xmin = 1, xmax = 4.5,
-            xtick = {1, 2, 3, 4},
-            ymajorgrids = true,
-            grid style = dashed,
-            ylabel = Desviación en costos,
-            xlabel = Nivel de madurez BIM,
-            legend style = {font=\scriptsize},
-        ]
-        \addplot [
-            samples = 100,
-            color = red,
-        ]
-        {-0.0532+0.104*4/x};
-        \addlegendentry{$y_i = -0.0532 + 0.104 \cdot \left( 4\cdot m_i^{-1} \right)$}
-        %second plot
-        \addplot [
-            samples = 100,
-            color = blue,
-        ]
-        {-0.0667+0.1047*4/x};
-        \addlegendentry{$y_i = -0.0667 + 0.1047\cdot \left( 4 \cdot m_i^{-1} \right)$}
-        \end{axis}
-    \end{tikzpicture}
-    \caption{Diferencia de predicciones entre el modelo propuesto en base a la submuestra homogénea (línea roja) y a la muestra total (línea azul).}
-\end{figure}
+% \begin{figure}[H]
+%     \centering
+%     \begin{tikzpicture}
+%         \begin{axis}[
+%             axis lines = left,
+%             title = {\textbf{Relación desviación de costos y madurez BIM}},
+%             ymin = 0, ymax = 0.4,
+%             xmin = 1, xmax = 4.5,
+%             xtick = {1, 2, 3, 4},
+%             ymajorgrids = true,
+%             grid style = dashed,
+%             ylabel = Desviación en costos,
+%             xlabel = Nivel de madurez BIM,
+%             legend style = {font=\scriptsize},
+%         ]
+%         \addplot [
+%             samples = 100,
+%             color = red,
+%         ]
+%         {-0.0532+0.104*4/x};
+%         \addlegendentry{$y_i = -0.0532 + 0.104 \cdot \left( 4\cdot m_i^{-1} \right)$}
+%         %second plot
+%         \addplot [
+%             samples = 100,
+%             color = blue,
+%         ]
+%         {-0.0667+0.1047*4/x};
+%         \addlegendentry{$y_i = -0.0667 + 0.1047\cdot \left( 4 \cdot m_i^{-1} \right)$}
+%         \end{axis}
+%     \end{tikzpicture}
+%     \caption{Diferencia de predicciones entre el modelo propuesto en base a la submuestra homogénea (línea roja) y a la muestra total (línea azul).}
+% \end{figure}
 
 
 %------------RESULTS ANALYSIS----------------
 \subsection{Análisis de Resultados}
 
-Como se mencionó más arriba, la propuesta de este estudio se basa en mostrar la relación inversa entre desviación de costos y madurez BIM y, junto a esto, validar la métrica propuesta a través de métodos estadísticos. Así, la hipótesis que se sostiene es que, efectivamente, existe una relación entre estas variables y dicha relación es inversamente proporcional. Formalmente:
+La propuesta de este estudio es proponer una metodología que permita generar un modelo capaz de estimar los crecimientos de los costos de construcción de un proyecto de acuerdo al nivel de madurez BIM alcanzado por dicho proyecto. 
+
+Además, se sostiene la hipótesis de que, efectivamente, existe una relación inversa entre el nivel de madurez BIM de un proyecto y los crecimientos de los costos de construcción. Formalmente:
 
 \begin{table}[H]
     \begin{tabular}{l p{0.9\linewidth}}
-        $H_0$: & La madurez BIM no tiene un efecto inversamente proporcional a la desviación en los costos de construcción de un proyecto. \\
+        $H_0$: & La madurez BIM no tiene un efecto inversamente proporcional en el crecimiento de los costos de construcción de un proyecto. \\
 
-        $H_1$: & La madurez BIM sí tiene un efecto inversamente proporcional a la desviación en los costos de construcción de un proyecto.
+        $H_1$: & La madurez BIM sí tiene un efecto inversamente proporcional en el crecimiento de los costos de construcción de un proyecto.
     \end{tabular}
 \end{table}
 
 Donde $H_0$ es la hipótesis nula y $H_1$ la hipótesis alternativa. 
 
-Para validar el modelo propuesto en términos estadísticos se debe contar con evidencia para rechazar $H_0$. La manera de corroborar dicha información es tomando el cuenta el valor que muestra el $p$-value. Puesto de otra manera, si $p<0,05$ existe evidencia para rechazar $H_0$; de lo contrario, si $p>0,05$, la evidencia en contra de $H_0$ es débil y no se puede rechazar. 
+Para validar el modelo propuesto en términos estadísticos se debe contar con evidencia suficiente para rechazar $H_0$. La manera de corroborar dicha información es tomando en cuenta el valor que muestra el $p$-value. Puesto de otra manera, si $p<0,05$ existe evidencia para rechazar $H_0$; de lo contrario, si $p>0,05$, la evidencia en contra de $H_0$ es débil y no se puede rechazar. 
 
-En este caso, y a pesar de lo limitada de la muestra, se tiene que para la submuestra de elementos homogéneos $p>0,05$, por lo que evidencia para rechazar $H_0$ es débil.
+En este caso, y a pesar de lo limitada de la muestra, se tiene que $p<0,05$, por lo que se puede decir que existe evidencia para rechazar $H_0$ en favor de $H_1$, indicando así que existe evidencia estadística para validar la hipótesis de la relación inversa entre madurez BIM y el crecimiento de los costos.
 
-Por otro lado, al considerar la muestra total se tiene que $p<0,05$, de manera que se puede rechazar $H_0$ en favor de $H_1$, indicando así que existe evidencia estadística para validar la hipótesis de la relación inversa entre madurez BIM y desviación de costos.
-
-Así, tomando en cuenta el resultado arrojado por la muestra total, el modelo representado en la ecuación \eqref{eq.modelo-prop-todos} sería el adecuado para predecir las desviación en costos de cualquier proyecto considerando únicamente su nivel de madurez BIM respecto de un óptimo. 
+Así, tomando en cuenta el resultado arrojado por la muestra total, el modelo representado en la ecuación \eqref{eq.modelo-prop-todos} demuestra que tanto la metodología como el indicador de madurez propuesto es una buena manera de estimar el crecimiento de los costos de contrucción de un proyecto. 
 
 Sin embargo, y a pesar de que si bien el resultado de la muestra total se condice con lo esperado en teoría, ha de tenerse en cuenta que se utilizó una muestra bastante acotada, por lo que se debe tener el cuidado pertinente si se quiere generalizar sobre este resultado. No obstante, el modelo propuesto se comporta de manera bastante apropiada y viene a validar, en términos cuantitavos, aquella \emph{sensación} de ahorro que genera la utilización de la metodología BIM.

@@ -40,10 +40,11 @@
 \contentsline {subsection}{\numberline {4.2.3}Transformación}{26}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Output}{27}{subsection.4.2.4}%
 \contentsline {subsection}{\numberline {4.2.5}Herramienta de selección y generación de base de datos}{28}{subsection.4.2.5}%
-\contentsline {section}{\numberline {4.3}Teoría del modelo propuesto}{29}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Modelo propuesto}{32}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Submuestra homogénea}{33}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Muestra Total}{35}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Análisis de Resultados}{38}{subsection.4.4.3}%
-\contentsline {chapter}{Conclusiones}{40}{chapter*.28}%
-\contentsline {chapter}{Referencias}{41}{chapter*.29}%
+\contentsline {subsection}{\numberline {4.2.6}Evaluación de madurez BIM de los proyectos}{28}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Aplicación de la métrica propuesta}{29}{subsection.4.2.7}%
+\contentsline {section}{\numberline {4.3}Teoría detrás del modelo propuesto}{29}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Modelo propuesto}{33}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Estimación del modelo según la muestra}{34}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Análisis de Resultados}{36}{subsection.4.4.2}%
+\contentsline {chapter}{Conclusiones}{38}{chapter*.25}%
+\contentsline {chapter}{Referencias}{39}{chapter*.26}%
